@@ -1,0 +1,38 @@
+{
+	"blt_version" : 2,
+	"name" : "Real-ish Weapon and Attachment Names",
+	"description" : "Changes the weapon and attachment names to resemble real life-styled naming, while keeping their PAYDAY 2-Universe names. Also adds useful descriptions for weapons and weapon attachments.\n\nSpecial thanks to AF Definta for weapon descriptions, and Alcat for help with weapon attachment descriptions.",
+	"author" : "VxWolf",
+	"contact" : "hard",
+	"color" : "0.8 0.8 1.0",
+	"image" : "icon.png",
+	"version": "v5",
+	"updates" : [
+    	{
+			"identifier" : "21048",
+			"host": {
+				"meta": "https://raw.githubusercontent.com/VxWolf/VxWolf-Auto-Update-JSONs/master/META-realish_weapon_and_attachment_names.json",
+				"download": "https://modworkshop.net/mydownloads.php?action=view_down&did=21048",
+				"patchnotes": "https://modworkshop.net/mydownloads.php?action=view_down&did=21048#changelog"
+			}
+		}
+	],
+	"hooks": [
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/customstrings_weapons.lua"
+		},
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/customstrings_weaponmods.lua"
+		},
+		{
+			"hook_id": "lib/tweak_data/weapontweakdata",
+			"script_path": "lua/descriptions_weapons.lua"
+		},
+		{
+			"hook_id": "lib/tweak_data/weaponfactorytweakdata",
+			"script_path": "lua/descriptions_weaponmods.lua"
+		}
+	]
+}
