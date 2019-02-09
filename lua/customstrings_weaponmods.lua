@@ -1,6 +1,6 @@
 Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 	LocalizationManager:add_localized_strings({
-        --Sights and Scopes
+--Sights and Scopes
 
         bm_wp_upg_o_eotech = "TECopt Holographic", --Holographic Sight
 		bm_wp_upg_o_eotech_desc = "Sight that slightly increases stability. Has a larger reticule and sight picture, sacrificing some concealability.",
@@ -46,9 +46,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 		bm_wp_upg_o_box = "Boxar Box Buddy", --Boxar written on it
 		bm_wp_upg_o_box_desc = "Very large scope with extreme magnification and a range finding capability. Automatically marks special enemies aimed at.",
         
---		bm_wpg_o_mbus_rear = "MBUS Front and Rear Sights", --???
---		bm_wpn_fps_upg_o_45iron = "XTI Angle Mount Sight", --???
---		bm_wp_upg_o_rmr = "Trijicon RM06 RMR Sight", --Pistol Red Dot Sight
+		--		bm_wpg_o_mbus_rear = "MBUS Front and Rear Sights", --???
+		--		bm_wpn_fps_upg_o_45iron = "XTI Angle Mount Sight", --???
+		--		bm_wp_upg_o_rmr = "Trijicon RM06 RMR Sight", --Pistol Red Dot Sight
 
 		bm_wp_upg_o_spot = "Boxar Reconnaissance", --Reconnaissance / Manufacturer is an assumption
 		bm_wp_upg_o_spot_desc = "Large sight that slightly increases stability. Has a range finding capability.",
@@ -62,7 +62,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 		bm_wp_upg_o_ak_scopemount = "KV-04 AK Mount", --Scope Mount (AK)
 		bm_wp_upg_o_ak_scopemount_desc = "A rail mount for sights that is closer to the eyes.",
 
-        --Gadgets
+--Gadgets
 
 		bm_wp_upg_fl_pis_m3x = "TacticalLights XM000 Polymer Light", --Polymer Flashlight
 		bm_wp_upg_fl_ass_smg_sho_peqbox = "Insight CVL-001", --Tactical Laser Module
@@ -73,8 +73,8 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 		bm_wp_upg_fl_x400v = "OPR8TR Light JP009", --Combined Module (Handguns)
 		bm_wp_upg_fl_pis_tlr1 = "TPL SlimTacLight", --Tactical Pistol Light
 
-        --Barrels & Foregrips
-        --assault rifles
+--Barrels & Foregrips
+    --assault rifles
 		bm_wp_upg_ass_m4_b_beowulf = "Crosskill AMDMR Conversion Kit", --AMCAR/AMR DMR Kits
 		bm_wp_upg_ass_m4_b_beowulf_desc = "Designated Marksman conversion kit. Massively increased damage and accuracy for reduced ammo. A compromise between an assault rifle and a sniper rifle.",
 
@@ -132,7 +132,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 
 		bm_wp_corgi_b_short_desc = "Shortened barrel adds concealment but reduces accuracy.", --Union short barrel
 
-        --shotguns
+    --shotguns
 		bm_wp_spas12_b_long_desc = "Enlarged magazine capacity.", --predator extended magazine
 
 		bm_wp_b682_b_short_desc = "Decreases stability in favour of spread and concealment.", --Joceline sawed off barrel
@@ -162,7 +162,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 		bm_wp_rota_b_standard_desc = "Shortened barrel boosts concealment and spread", --Goliath short barrel
 		bm_wp_rota_b_silenced_desc = "Silenced barrel reduces fire noise and boosts stability, but sacrifices overall gun performance.", --silenced barrel
 
-        --SMGs
+    --SMGs
 		bm_wp_m1928_b_short_desc = "Shortened barrel for increased concealment. Decreases accuracy.", --Typewriter short barrel
 		bm_wp_m1928_b_long_desc = "Lengthened barrel for increased accuracy. Decreases concealment.", --long barrel
 
@@ -201,7 +201,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 		bm_wp_hajk_b_medium_desc = "Shorter barrel increases concealment. Not as accurate.", --CR805B SMG Medium barrel
 		bm_wp_hajk_b_short_desc = "Shortened barrel greatly increases concealment. Greatly cuts accuracy.", --Short barrel
 
-        --Special
+    --Special
 		bm_wp_arbiter_b_comp_desc = "Slightly reduces accuracy and stability for increased concealment.", --Arbiter bombardier barrel
 		bm_wp_arbiter_b_long_desc = "Lengthened barrel slightly increases accuracy and stability. Not as concealable", --Long barrel
 
@@ -215,7 +215,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 
 		bm_wp_m32_barrel_short_desc = "Shortened barrel massively increases stability. Increased concealment and slightly reduced accuracy.", --Piglet GL short barrel
 
-        --Sniper Rifles
+    --Sniper Rifles
 		bm_wp_snp_msr_b_long_desc = "Lengthened barrel slightly increases accuracy. Not as concealable.", --Rattlesnake long barrel
 
 		bm_wp_r93_b_short_desc = "Shortened barrel moderately increases stability and concealment. Slightly reduced accuracy.", --R93 short barrel
@@ -224,8 +224,44 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 
 		bm_wp_m95_b_barrel_long_desc = "Lengthened barrel increases accuracy. Not as concealable.", --Thanatos tank buster barrel
 		bm_wp_m95_b_barrel_short_desc = "Shortened barrel increases concealment. Greatly reduced accuracy. Remember your training, Snake.", --CQB Barrel
-        bm_wp_m95_b_barrel_suppressed_desc = "Suppressed barrel reduces firing noise. Massively reduced damage.", --Supressed barrel
-        
+		bm_wp_m95_b_barrel_suppressed_desc = "Suppressed barrel reduces firing noise. Massively reduced damage.", --Supressed barrel
+		
+--Barrel Extensions
+	--Silencers
+		bm_wp_upg_ns_ass_smg_medium = "BeSilent! Standard Issue",
+		bm_wp_upg_ns_ass_smg_medium_desc = "Suppressor that slightly increases accuracy and eliminates firing noise. Sacrifices damage and concealment.",
+
+		bm_wp_upg_ns_ass_smg_small = "BeSilent! Low Profile",
+		bm_wp_upg_ns_ass_smg_small_desc = "Highly concealable suppressor that eliminates firing noise. Greatly sacrifices damage.",
+
+		bm_wp_upg_ns_ass_smg_large = "BeSilent! 'Bigger the Better' series",
+		bm_wp_upg_ns_ass_smg_large_desc = "Suppressor that increases accuracy and stability. Sacrifices damage and concealment.",
+
+		bm_wp_upg_ns_ass_pbs1 = "IZHMA PBS",
+		bm_wp_upg_ns_ass_pbs1_desc = "Suppressor that slightly increases stability. Sacrifices concealment.",
+	
+	--Compensators
+		bm_wp_upg_ns_ass_smg_stubby = "Dninnu Stubby",
+		bm_wp_upg_ns_ass_smg_stubby_desc = "Compensator that greatly increases stability.",
+
+		bm_wp_upg_ns_ass_smg_tank = "Dninnu Tank",
+		bm_wp_upg_ns_ass_smg_tank_desc = "Compensator that increases stability and damage.",
+
+		bm_wp_upg_ns_ass_smg_firepig = "Goats' Frontline Fire Breather",
+		bm_wp_upg_ns_ass_smg_firepig_desc = "Nozzle that increases damage and stability.",
+
+		bm_wp_upg_ass_ns_jprifles = "SG Competitor",
+		bm_wp_upg_ass_ns_jprifles_desc = "Compensator that increases stability, damage, and accuracy.",
+
+		bm_wp_upg_ass_ns_linear = "Goats' Frontline Funnel of Fun",
+		bm_wp_upg_ass_ns_linear_desc = "Nozzle that greatly increases damage. Sacrifices accuracy.",
+
+		bm_wp_upg_ass_ns_surefire = "Dninnu Tactical",
+		bm_wp_upg_ass_ns_surefire_desc = "Compensator that greatly increases accuracy. Sacrifices stability.",
+
+		bm_wp_ns_battle = "Goats' Frontline BattlePorted",
+		bm_wp_ns_battle_desc = "Compensator that increases damage and accuracy. Sacrifices stability.",
+
         thislineisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add an attachment
     })
 end)

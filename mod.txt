@@ -6,14 +6,14 @@
 	"contact" : "hard",
 	"color" : "0.8 0.8 1.0",
 	"image" : "icon.png",
-	"version": "v5",
+	"version": "v6",
 	"updates" : [
     	{
 			"identifier" : "21048",
 			"host": {
 				"meta": "https://raw.githubusercontent.com/VxWolf/VxWolf-Auto-Update-JSONs/master/META-realish_weapon_and_attachment_names.json",
 				"download": "https://modworkshop.net/mydownloads.php?action=view_down&did=21048",
-				"patchnotes": "https://modworkshop.net/mydownloads.php?action=view_down&did=21048#changelog"
+				"patchnotes": "https://raw.githubusercontent.com/VxWolf/Real-ish-Weapon-Names/master/README.txt"
 			}
 		}
 	],
@@ -21,6 +21,10 @@
 		{
 			"hook_id": "lib/managers/localizationmanager",
 			"script_path": "lua/customstrings_weapons.lua"
+		},
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/customstrings_addonweapons.lua"
 		},
 		{
 			"hook_id": "lib/managers/localizationmanager",

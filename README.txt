@@ -2,6 +2,15 @@ Drop into /mods/. Requires BLT (SuperBLT for auto-updates)
 
 CHANGE LOG:
 
+v6
+-Added support for some barrel extensions
+-Added support for a few custom weapons (more coming eventually)
+-Fixed the name of some crossbows
+-Changelog now points to github page
+-Updated name of the IZHMA 12 to "IZHMA Konsurn 12G" (From "IZHMA 12G")
+-Updated name of the Tempest-21 to "IMI Tempest 21" (From "IMI MTAR-21")
+-Other stuff I probably forgot
+
 v5
 -Added names and descriptions for the rest of the akimbo weapons
 -Reduced the will to live for VxWolf by 80%
@@ -20,7 +29,7 @@ v4
 -Updated the descriptions of some weapons
 -Added names for some of the new akimbos
 -Mosconi is now referred to as "Eaton" (based on OTWD gameplay footage)
--Updated name of the flamethrower to "PAYDAY Gang Flamethrower Mk.1" (From "PAYDAY Crew Flamethrower)
+-Updated name of the flamethrower to "PAYDAY Gang Flamethrower Mk.1" (From "PAYDAY Crew Flamethrower")
 -Added name for the XL 5.56 Microgun "Overkill Industries XL 5.56"
 -Added name for the MA-17 Flamethrower "Modestly Awesome MA-17"
 -Added name for the Signature SMG "Signature SNTHC"

@@ -79,8 +79,8 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_corgi = "UN Union",							  --Union 5.56 Rifle
 		bm_w_corgi_desc = "Neatly configured bullpup assault rifle. Moderate damage - Moderate ammo.",
 
-		bm_w_komodo = "IMI MTAR-21",							  --Union 5.56 Rifle
-		bm_w_komodo_desc = "Israeli bullpup assault rifle. Moderate damage - Moderate ammo.",
+		bm_w_komodo = "IMI Tempest-21",							  --Tempest-21 Rifle
+		bm_w_komodo_desc = "Israeli bullpup assault rifle. Moderate damage - Fast reloads.",
 
 --Shotguns
  
@@ -93,7 +93,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_r870 = "Reinbeck Reinfeld 880",               --Reinfield 880
 		bm_w_r870_desc = "Standard issue shotgun. Moderate damage - high rate of fire.",
 
-		bm_w_saiga = "IZHMA 12G",                           --IZHMA 12G
+		bm_w_saiga = "IZHMA Konsurn 12G",                           --IZHMA 12G
 		bm_w_saiga_desc = "Fully automatic magazine-fed light shotgun. Low damage - high rate of fire.",
 
 		bm_w_huntsman = "Eaton Mosconi 12G",               	  --Mosconi 12G
@@ -320,17 +320,17 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_elastic = "DECA Compound",	--DECA Technologies Compound Bow
 		bm_w_elastic_desc = "Modern tactical bow. Fires reusable arrows.",
 
-		bm_w_bow_hunter = "DECA Pistol Crossbow", --Pistol Crossbow
-		bm_w_bow_hunter_desc = "Compact modern pistol crossbow. Fires reusable bolts.",
+		bm_w_hunter = "DECA Pistol Crossbow", --Pistol Crossbow
+		bm_w_hunter_desc = "Compact modern pistol crossbow. Fires reusable bolts.",
 
-		bm_w_bow_long_desc = "Medieval longbow. Fires reusable arrows.", --English Longbow
+		bm_w_long_desc = "Medieval longbow. Fires reusable arrows.", --English Longbow
 
-		bm_w_bow_plainsrider_desc = "Native american bow. Fires reusable arrows.", --Plainsrider bow
+		bm_w_plainsrider_desc = "Native american bow. Fires reusable arrows.", --Plainsrider bow
 		
-		bm_w_bow_arblast = "Medieval Arbalest.", --Heavy Crossbow
-		bm_w_bow_arblast_desc = "Heavy medieval arbalest. Fires reusable bolts.",
+		bm_w_arblast = "Medieval Arbalest.", --Heavy Crossbow
+		bm_w_arblast_desc = "Heavy medieval arbalest. Fires reusable bolts.",
 
-		bm_w_bow_frankish_desc = "Lightweight medieval crossbow. Fires reusable bolts.", --Light crossbow
+		bm_w_frankish_desc = "Lightweight medieval crossbow. Fires reusable bolts.", --Light crossbow
 
 --Snipers
 
