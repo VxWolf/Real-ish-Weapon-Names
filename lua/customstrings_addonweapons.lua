@@ -2,8 +2,51 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_AddonGuns", function(loc)
     LocalizationManager:add_localized_strings({
 
         --Alcat
-        bm_w_akrocket = "IZHMA AN-18C", --AN-94
+        bm_w_ajm9 = "Bernetti AJM-9", --AJM9 pistol
+        bm_w_ajm9_desc = "Stolen futuristic firearm for a secret law enforcement project. Low Damage - Has a burst-fire function.",
+        bm_w_x_ajm9 = "Akimbo Bernetti AJM-9",
+        bm_w_x_ajm9_desc = "Two of law's-right-hand on your hand, no criminal will stand before this.",
+        
+		bm_w_akrocket = "IZHMA AN-18C", --AN-94
         bm_w_akrocket_desc = "Rare prototype Russian assault rifle. Moderate Damage - Has a rapid-fire hyperburst function.",
+
+		bm_w_bar = "Browning Automatic Rifle", --BAR
+        bm_w_bar_desc = "The walking-fire of US machine gun in WW2. Higher Damage - Higher weapon kick.",
+
+		bm_w_auto5 = "Browning Automatic Shotgun", --auto5
+        bm_w_auto5_desc = "The first of it's kind of auto-shotgun. Moderate Damage - High concealment.",
+
+		bm_w_calico = "Calico M9C", --calico
+        bm_w_calico_desc = "A helical-mag submachine gun, chambered in pistol cartridge. Low Damage - High magazine size.",
+
+		bm_w_czauto = "CR 75 Auto", --CZ75 Auto
+        bm_w_czauto_desc = "The Wonder-9 of the full-auto pistol. Moderate Damage - Capable of automatic fire.",
+
+		bm_w_fusil = "SIMA Doble", --FAD
+        bm_w_fusil_desc = "Bullpup for non-frontline crew, but packs a punch. High Damage - High concealment.",
+
+		--[[FIM-92 Stinger || It was made by General Dynamic/Raytheon, and thought it was kinda the same with General Electric that made the minigun, but its not. Thoughts?
+		we can just bullshit that both GE and GD is under a conglomerate in Payday Universe, so I can just reuse your Minigun naming? - Overkill Industries]]
+		bm_w_stinger = "Overkill Industries RedEye-92", 
+        bm_w_stinger_desc = "Portable surface-to-air missile launcher. Homing capability currently not coded.",
+
+		bm_w_hecate = "Hecate AM Precision", --Hecate
+        bm_w_hecate_desc = "Anti-Materiel rifle that have an exceptional accuracy. Explosive round available.",
+
+		bm_w_howa = "Howa 89 Rifle", --Howa AR || Idk what to give for in-universe Howa manufacturer and Type 89 name
+        bm_w_howa_desc = "Smuggled out Japanese military firearm. Moderate damage - Battle Rifle conversion available.",
+
+		bm_w_k1a7 = "Howa 89 Rifle", --Howa AR
+        bm_w_k1a7_desc = "Smuggled out Japanese military firearm. Moderate damage - Battle Rifle conversion available.",
+
+		bm_w_k2 = "Howa 89 Rifle", --Howa AR
+        bm_w_k2_desc = "Smuggled out Japanese military firearm. Moderate damage - Battle Rifle conversion available.",
+
+		bm_w_k3 = "Howa 89 Rifle", --Howa AR
+        bm_w_k3_desc = "Smuggled out Japanese military firearm. Moderate damage - Battle Rifle conversion available.",
+
+		bm_w_k5 = "Howa 89 Rifle", --Howa AR
+        bm_w_k5_desc = "Smuggled out Japanese military firearm. Moderate damage - Battle Rifle conversion available.",
 
         bm_w_max9 = "BeSilent! Maxsil 9", --Maxim 9
         bm_w_max9_desc = "Unique handgun with an integral suppressor. Moderate Damage - Integrally suppressed.",
