@@ -20,11 +20,15 @@
 	"hooks": [
 		{
 			"hook_id": "lib/managers/localizationmanager",
-			"script_path": "lua/customstrings_weapons.lua"
-		},
+			"script_path": "lua/customstrings_addonweapons.lua"
+		},		
 		{
 			"hook_id": "lib/managers/localizationmanager",
-			"script_path": "lua/customstrings_addonweapons.lua"
+			"script_path": "lua/addon_weapons/customstrings_alcat_addonweapons.lua"
+		},		
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/customstrings_weapons.lua"
 		},
 		{
 			"hook_id": "lib/managers/localizationmanager",
