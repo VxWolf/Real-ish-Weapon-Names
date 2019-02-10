@@ -137,6 +137,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Alcat_AddonGuns", function(loc)
 		bm_w_trench = "G&H Trench Gun", --Trench shotgun || Winchester manuf, since Winchester sniper is named Gage G&H, and its an old gun, I used G&H
         bm_w_trench_desc = "The infamous shotgun that are so effective on trench war, it become a political target of the enemy.",
 
+		bm_w_sideload = "UST Sidewinder-15", --UTS-15 || joint-project request from Smith Wesson to Turkey manuf UTAS, so UST = US-Turkey
+        bm_w_sideload_desc = "Tactical pump-action shotgun. 2-tube; 7-round capacity; magazine allows for alternating payload (in-game ability not coded yet).",
+
 		bm_w_hk51 = "Volmr Brenner-51", --HK 51
         bm_w_hk51_desc = "Cut-down version of Brenner-21 LMG. High Damage - High concealment.",
 
