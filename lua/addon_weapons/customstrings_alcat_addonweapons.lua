@@ -10,7 +10,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Alcat_AddonGuns", function(loc)
 		bm_w_akrocket = "IZHMA AN-18C", --AN-94
         bm_w_akrocket_desc = "Rare prototype Russian assault rifle. Moderate Damage - Has a rapid-fire hyperburst function.",
 
-		bm_w_bar = "Browning Automatic Rifle", --BAR
+		bm_w_bar = "Browning Automatic Rifle", --BAR || any better idea to in-universify Browning?
         bm_w_bar_desc = "The walking-fire of US machine gun in WW2. Higher Damage - Higher weapon kick.",
 
 		bm_w_auto5 = "Browning Automatic Shotgun", --auto5

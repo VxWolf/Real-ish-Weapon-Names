@@ -31,9 +31,6 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_AddonGuns", function(loc)
         bm_w_yayo = "Crosskill AMR-16 'Montana'", --Montana 5.56
         bm_w_yayo_desc = "The infamous assault rifle of an infamous drug lord. Moderate Damage - Has an underbarrel grenade launcher.",
         
-        --Pawcio
-        bm_w_appistol = "Vom Feuer AP Pistol",
-        bm_w_appistol_desc = "A german automatic pistol with armour-piercing ammunition. Moderate Damage - Penetrates body armour.",
 
         --VxWolf
         
