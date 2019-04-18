@@ -12,6 +12,13 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Groceries_AddonGuns", function(
         bm_w_sw659_desc = "Traditional double-action high-capacity 9mm caliber pistol. Moderate Damage - High ammo capacity.",		
 		bm_w_x_sw659 = "Mr. White & Mr. Orange",
         bm_w_x_sw659_desc = "Unleash the wild dogs with 2 J&M D659. Make John Woo proud.",
+
+		bm_w_qsz92 = "PLA QSZ-92",
+        bm_w_qsz92_desc = "Standardized Chinese military pistol. Reliable at all situation.",
+		
+		bm_w_sg552 = "Signature Commando Carbine",
+        bm_w_sg552_desc = "Carbine version of 'Restricted for law enforcement use only' assault rifle. Low damage - Good concealment.",		
+
 		
                
         thisaswellisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add a gun

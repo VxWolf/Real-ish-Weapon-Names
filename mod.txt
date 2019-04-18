@@ -28,6 +28,10 @@
 		},
 		{
 			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/addon_weapons/customstrings_germantacos_addonweapons.lua"
+		},
+		{
+			"hook_id": "lib/managers/localizationmanager",
 			"script_path": "lua/addon_weapons/customstrings_groceries_addonweapons.lua"
 		},		
 		{

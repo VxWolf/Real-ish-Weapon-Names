@@ -72,13 +72,13 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Alcat_AddonGuns", function(loc)
 		bm_w_mini14 = "Rugrats Mini-308", --Mini-14
         bm_w_mini14_desc = "The smaller cousin of the M308. Middle ground damage between DMR and Battle Rifle.",
 
-		bm_w_mg5 = "SG MG-2010", --MG5
+		bm_w_mg5 = "SG MG 7.62", --MG5
         bm_w_mg5_desc = "General Purpose Machine Gun version of the MG-4. Extremely high damage on its class.",
 
 		bm_w_classic = "TZ Nagant Custom", --Mosin Custom 
         bm_w_classic_desc = "A customized Nagant that seems to take hint from M1 Carbine. High Damage - Concealable through customization.",
 
-		bm_w_msmc = "ARDE MSMC", --MSMC
+		bm_w_msmc = "ARDE Shiva", --MSMC
         bm_w_msmc_desc = "A concept from India that tries to combine Submachine Gun and Carbine rifle. High Damage - AP ammo available.",
 
 		bm_w_storm = "Bernetti Storm", --Mx4 Storm
