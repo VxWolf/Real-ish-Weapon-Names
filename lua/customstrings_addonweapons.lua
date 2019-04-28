@@ -22,6 +22,8 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_AddonGuns", function(loc)
 		bm_w_toz194 = "IZHMA Tula-194",  --Tula Arms are now under the IZHMA conglomerate, Tula is now TOZ shotgun brand line
         bm_w_toz194_desc = "Exceptionally long barreled shotgun to pass Russian civilian law ownership. High Damage - Low ammo capacity.",
 		
+		bm_w_qbs = "PLA QBS-09",
+        bm_w_qbs_desc = "Combat Shotgun with semi-auto firemode. Moderate Damage - High ammo capacity.",
 		
         --VxWolf        
         bm_w_temple = "SG Hyper11", --G11

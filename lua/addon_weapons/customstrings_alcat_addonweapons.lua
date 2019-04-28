@@ -2,10 +2,10 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Alcat_AddonGuns", function(loc)
     LocalizationManager:add_localized_strings({
 
         --Alcat
-        bm_w_ajm9 = "Bernetti AJM-9", --AJM9 pistol
-        bm_w_ajm9_desc = "Stolen futuristic firearm for a secret law enforcement project. Low Damage - Has a burst-fire function.",
-        bm_w_x_ajm9 = "Akimbo Bernetti AJM-9",
-        bm_w_x_ajm9_desc = "Two of law's-right-hand on your hand, no criminal will stand before this.",
+        bm_w_ajm = "Bernetti AJM-9", --AJM9 pistol
+        bm_w_ajm_desc = "Stolen futuristic firearm for a secret law enforcement project. Low Damage - Has a burst-fire function.",
+        bm_w_x_ajm = "Akimbo Bernetti AJM-9",
+        bm_w_x_ajm_desc = "Two of law's-right-hand on your hand, no criminal will stand before this.",
         
 		bm_w_akrocket = "IZHMA AN-18C", --AN-94
         bm_w_akrocket_desc = "Rare prototype Russian assault rifle. Moderate Damage - Has a rapid-fire hyperburst function.",
@@ -29,6 +29,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Alcat_AddonGuns", function(loc)
 		we can just bullshit that both GE and GD is under a conglomerate in Payday Universe, so I can just reuse your Minigun naming? - Overkill Industries]]
 		bm_w_stinger = "Overkill Industries RedEye-92", 
         bm_w_stinger_desc = "Portable surface-to-air missile launcher. Homing capability currently not coded.",
+
+		bm_w_lynx = "Gepard Lynx-6", 
+        bm_w_lynx_desc = "Bullpup Anti-Materiel rifle. Portable, Compact, Deadly",
 
 		bm_w_hecate = "Artemis AM Precision", --Hecate || Hecate is greek goddesses, changed to Artemis due to the precision nature of the weapon, and the hunting goddess.
         bm_w_hecate_desc = "Anti-Materiel rifle that have an exceptional accuracy. Explosive round available.",
@@ -140,8 +143,8 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Alcat_AddonGuns", function(loc)
 		bm_w_sideload = "UST Sidewinder-15", --UTS-15 || joint-project request from Smith Wesson to Turkey manuf UTAS, so UST = US-Turkey
         bm_w_sideload_desc = "Tactical pump-action shotgun. 2-tube; 7-round capacity; magazine allows for alternating payload (in-game ability not coded yet).",
 
-		bm_w_hk51 = "Volmr Brenner-51", --HK 51
-        bm_w_hk51_desc = "Cut-down version of Brenner-21 LMG. High Damage - High concealment.",
+		bm_w_volmer = "Volmr Brenner-51", --HK 51
+        bm_w_volmer_desc = "Cut-down version of Brenner-21 LMG. High Damage - High concealment.",
 
         
         thisaswellisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add a gun
