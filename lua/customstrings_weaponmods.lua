@@ -225,6 +225,10 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 		bm_wp_m95_b_barrel_long_desc = "Lengthened barrel increases accuracy. Not as concealable.", --Thanatos tank buster barrel
 		bm_wp_m95_b_barrel_short_desc = "Shortened barrel increases concealment. Greatly reduced accuracy. Remember your training, Snake.", --CQB Barrel
 		bm_wp_m95_b_barrel_suppressed_desc = "Suppressed barrel reduces firing noise. Massively reduced damage.", --Supressed barrel
+
+		--SC's Mod
+		bm_wp_upg_vg_afg = "Angled Foregrip", --Angled Foregrip
+		bm_wp_upg_vg_afg_desc = "Allows the operator to more easily hold the front of the gun.",
 		
 --Barrel Extensions
 	--Silencers
