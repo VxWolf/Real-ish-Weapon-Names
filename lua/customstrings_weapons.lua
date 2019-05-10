@@ -60,7 +60,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_asval = "IZHMA Valkyria",                      --Valkyria Rifle
 		bm_w_asval_desc = "Sokol's assault rifle of choice. Low damage - Integrally suppressed.",
 
-		bm_w_sub2000 = "HS Cavity",							  --Cavity 9mm
+		bm_w_sub2000 = "Tecci Cavity",							  --Cavity 9mm
 		bm_w_sub2000_desc = "Folding DMR. Extremely high damage - High concealment.",
 
 		bm_w_tecci = "SG 416c",                             --Bootleg
@@ -102,10 +102,10 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_benelli = "Leone M1014",                         --M1014
 		bm_w_benelli_desc = "Modern light shotgun. Low damage - high rate of fire.",
 
-		bm_w_ksg = "Crosskill Raven",   		          --Raven
+		bm_w_ksg = "Tecci Raven",   		          --Raven
 		bm_w_ksg_desc = "A shotgun with unique feed system. Moderate damage - Large magazines.",
 
-		bm_w_aa12 = "Crosskill Steakout 12G",		      --Steakout 12G
+		bm_w_aa12 = "Attchinson Steakout 12G",		      --Steakout 12G
 		bm_w_aa12_desc = "Fully automatic magazine-fed light shotgun. Low damage - high ammo capacity.",
 
 		bm_w_boot = "Eaton Breaker 12G",                   --Breaker 12G
