@@ -1,5 +1,49 @@
 Drop into /mods/. Requires BLT (SuperBLT for auto-updates)
 
+------------STYLE GUIDE FOR THOSE ADDING THEIR OWN WEAPONS------------ (wip)
+All weapon names and descriptions follow a convention, to ensure consistency between all of them
+
+A weapon's name looks like this
+<MANUFACTURER> <WEAPON MODEL>
+<MANUFACTURER> is the weapon's manufacturer. These should almost never match the weapon's IRL manufacturer, check other weapons in customstrings_weapons.lua for manufacturers already established If it's a gun from  a made up manufacturer, and it already has markings on its body, derive from that instead.
+<MANUFACTURER> is the weapon's manufacturer. These should almost never match the weapon's IRL manufacturer, check other weapons in customstrings_weapons.lua for manufacturers already established. 
+<WEAPON MODEL> is the name of the gun. These should never match the weapon's IRL name. If it's a gun with a made up name, and it already has markings on its body, derive from that instead.
+
+Akimbo weapons are slightly different
+Akimbo <MANUFACTURER> <WEAPON MODEL>
+
+A weapon's description looks like this:
+<SHORT DESCRIPTION>. <DAMAGE TIER> - <INTERESTING ASPECT>.
+
+<SHORT DESCRIPTION> should mention what kind of gun it is (e.g. Assault Rifle, Light Shotgun). The list of these are below.
+
+Akimbo weapons are slightly different
+Wield two <MANUFACTURER> <WEAPON MODEL>s simultaneously in akimbo. <Quip>.
+<Quip> can be your funny movie/game/anime references. If you got none, just write "Make John Woo proud"
+
+---GUN TYPES, damage tiers:---
+Carbine - 40-damage ARs
+Assault Rifle - 60-damage ARs
+Battle Rifle - 100-damage ARs
+DMR -160+ damage ARs
+marksman's sniper rifle -
+sniper rifle
+anti-material rifle
+rifle
+
+
+
+SMG
+LMG
+
+Light Shotgun
+Shotgun
+Heavy Shotgun
+
+todo: fill out the rest of this stuff
+
+----------------------------------------------------------------------
+
 CHANGE LOG:
 
 v7
