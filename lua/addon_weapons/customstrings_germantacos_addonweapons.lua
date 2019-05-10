@@ -23,10 +23,10 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Germantacos_AddonGuns", functio
         bm_w_heffy_gold = "Golden IZHMA AKC 1GB", --gold akm
         bm_w_heffy_gold_desc = "Worth more than the bank you're robbing. 22mb - murders your loading times.",
 		
-        bm_w_pm63 = "Radon PM-63 Rack", --gold akm
-        bm_w_pm63_desc = "Worth more than the bank you're robbing. Moderate Damage - Multiple customization choice.",
-        bm_w_x_pm63 = "Akimbo Radon PM-63 Rack", --gold akm
-        bm_w_x_pm63_desc = "Wield two Radon PM-63 Rack simultaneously in akimbo. Make John Woo proud..",
+        bm_w_pm63 = "Radon PL-63 RACK", --PM-63 RAK
+        bm_w_pm63_desc = "Polish Submachine Gun. Moderate Damage - Multiple customization choice.",
+        bm_w_x_pm63 = "Akimbo Radon PL-63 RACK", --god alcat you could have at least changed the weapon name comments
+        bm_w_x_pm63_desc = "Wield two Radon PL-63 RACKs simultaneously in akimbo. Make John Woo proud.",
 		
                
         thisaswellisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add a gun
