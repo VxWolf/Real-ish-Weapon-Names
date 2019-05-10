@@ -1,14 +1,14 @@
 Hooks:Add("LocalizationManagerPostInit", "RishWN_Pawcio_AddonGuns", function(loc)
-    LocalizationManager:add_localized_strings({
+	LocalizationManager:add_localized_strings({
 
-        --Pawcio
-        bm_w_appistol = "Vom Feuer AP Pistol",
-        bm_w_appistol_desc = "A german automatic pistol with armour-piercing ammunition. Moderate Damage - Penetrates body armour.",
+		--Pawcio
+		bm_w_appistol = "Vom Feuer AP Pistol",
+		bm_w_appistol_desc = "A german automatic pistol with armour-piercing ammunition. Moderate Damage - Penetrates body armour.",
 
-        bm_w_aps = "IZHMA Stechkin Auto", --Made in the same manf plant with RPK, so IZHMA
-        bm_w_aps_desc = "Personal Defense Weapon built for vehicle and artillery crew. Low Damage - Capable of automatic fire.",
-        bm_w_x_aps = "Akimbo IZHMA Stechkin Auto",
-        bm_w_x_aps_desc = "Wield two IZHMA Stechkin Auto simultaneously in akimbo. Make John Woo proud.",
+		bm_w_aps = "IZHMA Stechkin Auto", --Made in the same manf plant with RPK, so IZHMA
+		bm_w_aps_desc = "Personal Defense Weapon built for vehicle and artillery crew. Low Damage - Capable of automatic fire.",
+		bm_w_x_aps = "Akimbo IZHMA Stechkin Auto",
+        	bm_w_x_aps_desc = "Wield two IZHMA Stechkin Autos simultaneously in akimbo. Make John Woo proud.",
 		
 		bm_w_mp153 = "IZHMA Bear-153", --IZHMA apparently in Payday universe is a big conglomerate that owns almost all russian-borne weapon
 		bm_w_mp153_desc = "Civilian hunting shotgun, as the name implies it is very effective against bear. Moderate Damage - Semi-Auto action.",
@@ -41,7 +41,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Pawcio_AddonGuns", function(loc
 		bm_w_lsat_desc = "An LMG borne from joint researh to develop a lighter gun using lighter ammunition. Moderate Damage - Controllable Recoil.",
 			
 		bm_w_m60 = "Crosskill M60", --Manuf by US Ordnance, which also make M16, so in-universify to Crosskill
-		bm_w_m60_desc = "Ironically named 'The Pig', used against 'the cops'. High Damage - Low rate of fire.",
+		bm_w_m60_desc = "LMG affectionately named 'The Pig'... used against 'the cops'. High Damage - Low rate of fire.",
 			
 		bm_w_obr5 = "Longhorn Tactical 5.56", --Larue changed to Longhorn
 		bm_w_obr5_desc = "Classic American assault rifle converted for precision shooting. High Damage - Low ammo capacity.",
