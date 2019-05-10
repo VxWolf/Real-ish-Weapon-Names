@@ -2,6 +2,10 @@ Drop into /mods/. Requires BLT (SuperBLT for auto-updates)
 
 CHANGE LOG:
 
+v7
+-Added support for a few ResMod foregrips
+-Added support for a few extra mod weapons and attachments (Thanks Alcat)
+
 v6
 -Added support for some barrel extensions
 -Added support for a few custom weapons (more coming eventually)
