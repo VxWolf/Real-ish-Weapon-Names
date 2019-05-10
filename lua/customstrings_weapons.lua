@@ -15,7 +15,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_m4 = "Crosskill AMCAR-4",       		      --CAR-4
 		bm_w_m4_desc = "Assault rifle of choice for the modern SWAT unit. Moderate damage - great part variety.",
 
-		bm_w_aug = "AAAC UAR",                            --UAR / AAAC = Austria/Australia Arms Coalition? Idk what to call Steryr/Thales
+		bm_w_aug = "Wels UAR",                            --UAR / AAAC
 		bm_w_aug_desc = "Austrian bullpup assault rifle. Moderate damage - good accuracy and stability.",
 
 		bm_w_akm = "IZHMA AK.762",                        --AK.762
@@ -228,7 +228,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_schakal = "Akimbo SG AMP", --Akimbo Jackal SMGs 
 		bm_w_x_schakal_desc = "Wield two SG AMPs simultaneously in akimbo. Make John Woo proud.",
         
-        bm_w_x_shepheard = "Akimbo Signature SNTHC",
+		bm_w_x_shepheard = "Akimbo Signature SNTHC",
 		bm_w_x_shepheard_desc = "Wield two Signature SNTHCs simultaneously in akimbo. How many Nintendo consoles do you own?",
 
 		bm_w_x_erma = "Akimbo Reich MP40", --Akimbo MP40s
@@ -240,8 +240,8 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_p90 = "Akimbo UN Kobus 90", --Akimbo Kobus 90 
 		bm_w_x_p90_desc = "Wield two UN Kobus 90s simultaneously in akimbo. Make John Woo proud.",
 
-		bm_w_x_polymer = "Akimbo Kross Vertex Polygon", --Akimbo Kross Vertex 
-		bm_w_x__desc = "Wield two Kross Vertex Polygons simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_polymer = "Akimbo KrossVertex Polygon", --Akimbo Kross Vertex 
+		bm_w_x__desc = "Wield two KrossVertex Polygons simultaneously in akimbo. Make John Woo proud.",
 
 		bm_w_x_coal = "Akimbo IZHMA Tatonka", --Akimbo Tatonkas
 		bm_w_x_coal_desc = "Wield two IZHMA Tatonkas simultaneously in akimbo. Make John Woo proud.",
@@ -264,7 +264,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_mp7 = "Akimbo SG SpecOps", --Akimbo 
 		bm_w_x_mp7_desc = "Wield two SG SpecOpses simultaneously in akimbo. Make John Woo proud.",
 
-		bm_w_x_sr2 = "Akimbo Veresk Heather",            	  --Akimbo Heather SMG
+		bm_w_x_sr2 = "Akimbo IZHMA Heather",            	  --Akimbo Heather SMG
 		bm_w_x_sr2_desc = "Wield two Veresk Heathers simultaneously in akimbo. This is fucking war baby!",
 
 	--Shotguns
@@ -392,11 +392,11 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_wp_pis_g26 = "Chimano Compact",                  	  --Chimano Compact
 		bm_wp_pis_g26_desc = "An ultra-compact version of the Chimano series handgun. Low damage - High concealment.",
         
-        bm_w_glock_17 = "Chimano 88",                       	  --Chimano 88
-        bm_w_glock_17_desc = "Common standard issue handgun. Low damage - Low price.",
+		bm_w_glock_17 = "Chimano 88",                       	  --Chimano 88
+		bm_w_glock_17_desc = "Common standard issue handgun. Low damage - Low price.",
 
-        bm_w_colt_1911 = "Crosskill Operator II",			  --Crosskill
-        bm_w_colt_1911_desc = "Classic American WWI handgun. Moderate damage - Small magazine size.",
+		bm_w_colt_1911 = "Crosskill Operator II",			  --Crosskill
+		bm_w_colt_1911_desc = "Classic American WWI handgun. Moderate damage - Small magazine size.",
 
 		bm_w_b92fs = "Bernetti B9S",                        --Bernetti 9
 		bm_w_b92fs_desc = "Iconic Italian handgun. Low damage - High ammo capacity.",
@@ -460,14 +460,14 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_mac10 = "Ingrid Mark 10",                      --Mark 10
 		bm_w_mac10_desc = "Compact submachine gun. Moderate damage - blistering rate of fire.",
         
-        bm_w_mp5 = "SG Compact-5",                        --Compact-5
-        bm_w_mp5_desc = "Iconic German submachine gun. Low damage - High concealment.",
+		bm_w_mp5 = "SG Compact-5",                        --Compact-5
+		bm_w_mp5_desc = "Iconic German submachine gun. Low damage - High concealment.",
 
 		bm_w_mp9 = "SG CMP",                              --CMP
 		bm_w_mp9_desc = "Lightweight German submachine gun. Low damage - Moderate Stability.",
         
-        bm_w_olympic = "Crosskill AMCAR-Para",      		  --Para
-        bm_w_olympic_desc = "Compact submachine gun based on Crosskill's AM platform. Moderate damage - Decent customisability.",
+        	bm_w_olympic = "Crosskill AMCAR-Para",      		  --Para
+        	bm_w_olympic_desc = "Compact submachine gun based on Crosskill's AM platform. Moderate damage - Decent customisability.",
 
 		bm_w_akmsu = "IZHMA Krinkov",                       --Krinkov
 		bm_w_akmsu_desc = "Downsized Russian submachine gun based on the IZHMA AK.762. High damage - Low ammo capacity.",
@@ -496,13 +496,13 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_cobray = "HIC Jacket's Piece",                  --Jacket's Piece / Hotline Improving Corpses
 		bm_w_cobray_desc = "Jacket's submachine gun of choice. Moderate damage - High rate of fire.",
 
-		bm_w_polymer = "Kross Vertex Polygon",                --Kross Vertex / Polygon SMG
+		bm_w_polymer = "KrossVertex Polygon",                --Kross Vertex / Polygon SMG
 		bm_w_polymer_desc = "High-tech submachine gun with unique firing mechanism. Moderate damage - High rate of fire.",
 
 		bm_w_baka = "IMI Micro Uzi",                       --Micro Uzi
 		bm_w_baka_desc = "Jiro's submachine gun of choice. Low damage - High concealment.",
 
-		bm_w_sr2 = "Veresk Heather",                      --Heather SMG / idk
+		bm_w_sr2 = "IZHMA Heather",                      --Heather SMG / idk
 		bm_w_sr2_desc = "Compact Russian submachine gun. Moderate damage - High concealment.",
 
 		bm_w_hajk = "CR 805B",                             --CR 805B
