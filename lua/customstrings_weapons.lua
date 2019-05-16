@@ -5,7 +5,6 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 
         bm_w_akm_gold = "Golden IZHMA AK.762",             --Golden AK.762
 		bm_w_akm_gold_desc = "Worth more than the bank you're robbing. High damage - low concealment.",
-
 		bm_w_amcar = "Crosskill AMCAR-15 Mini",    		  --AMCAR
 		bm_w_amcar_desc = "Compact American carbine. Low damage - High ammo capacity.",
 
@@ -25,7 +24,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_g36_desc = "Carbine of choice for the GenSec FTSU. Low damage - great stability.",
 
 		bm_w_m14 = "Moonbase Armory M308",                --M308
-		bm_w_m14_desc = "Powerful and precise DMR. Extremely high damage - Very low ammo.",
+		bm_w_m14_desc = "Powerful and precise DMR. Very high damage - Very low ammo.",
 
 		bm_w_ak5 = "UN AK5",                              --Ak 5
 		bm_w_ak5_desc = "Belgian assault rifle. Moderate damage - Stable and accurate.",
@@ -61,20 +60,20 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_asval_desc = "Sokol's assault rifle of choice. Low damage - Integrally suppressed.",
 
 		bm_w_sub2000 = "Tecci Cavity",							  --Cavity 9mm
-		bm_w_sub2000_desc = "Folding DMR. Extremely high damage - High concealment.",
+		bm_w_sub2000_desc = "Folding DMR. Very high damage - High concealment.",
 
 		bm_w_tecci = "SG 416c",                             --Bootleg
 		bm_w_tecci_desc = "Sydney's assault rifle of choice. Low damage - Large magazines.",
 
 		bm_w_contraband = "SG 417d",         				  --Little Friend 7.62
-		bm_w_contraband_desc = "Scarface's little friend. Extremely high damage - Has an underbarrel grenade launcher.",
+		bm_w_contraband_desc = "Scarface's little friend. Very high damage - Has an underbarrel grenade launcher.",
 		bm_w_contraband_m203 = "Crosskill M203",    			  --Little Friend Underbarrel Grenade Launcher / Crosskill and "M203", written on launcher
 
 		bm_w_ak12 = "IZHMA AK-17",                         --AK17 Rifle
 		bm_w_ak12_desc = "Modernized battle rifle based on IZHMA's AK platform. High damage - low customisability.",
 
 		bm_w_ching = "Moonbase Armory M1 Galant",           --Galant Rifle
-		bm_w_ching_desc = "WWII DMR loaded with an en bloc clip. Extremely high damage - Fast reloads.",
+		bm_w_ching_desc = "WWII DMR loaded with an en bloc clip. Very high damage - Fast reloads.",
 
 		bm_w_corgi = "UN Union",							  --Union 5.56 Rifle
 		bm_w_corgi_desc = "Neatly configured bullpup assault rifle. Moderate damage - Moderate ammo.",
