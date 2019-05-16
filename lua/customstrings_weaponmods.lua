@@ -2,7 +2,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 	LocalizationManager:add_localized_strings({
 --Sights and Scopes
 
-        bm_wp_upg_o_eotech = "TECopt Holographic", --Holographic Sight
+		bm_wp_upg_o_eotech = "TECopt Holographic", --Holographic Sight
 		bm_wp_upg_o_eotech_desc = "Sight that slightly increases stability. Has a larger reticule and sight picture, sacrificing some concealability.",
 
 		bm_wp_upg_o_t1micro = "PA Professional's Choice", --The Professional's Choice /irl same manufacturer as combat sight
@@ -243,6 +243,15 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 
 		bm_wp_upg_ns_ass_pbs1 = "IZHMA PBS",
 		bm_wp_upg_ns_ass_pbs1_desc = "Suppressor that slightly increases stability. Sacrifices concealment.",
+				
+		bm_wp_upg_ns_ass_filter = "Old Bain's Classic Oil Filter",
+		bm_wp_upg_ns_ass_filter_desc = "Makeshift suppressor that eliminates firing noise. Greatly sacrifices damage, accuracy and concealment.",
+				
+		bm_wp_upg_ns_pis_large = "DIAgeM Monolith",
+		bm_wp_upg_ns_pis_large_desc = "Suppressor that increases stability. Sacrifices damage and concealment.",
+				
+		bm_wp_upg_ns_pis_medium_slim = "Bowser Asepsis",
+		bm_wp_upg_ns_pis_medium_slim_desc = "Suppressor eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
 	
 	--Compensators
 		bm_wp_upg_ns_ass_smg_stubby = "Dninnu Stubby",
