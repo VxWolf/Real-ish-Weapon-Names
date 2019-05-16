@@ -15,32 +15,73 @@ Akimbo <MANUFACTURER> <WEAPON MODEL>
 A weapon's description looks like this:
 <SHORT DESCRIPTION>. <DAMAGE TIER> - <INTERESTING ASPECT>.
 
+<DAMAGE TIER> should refer to the amount of damage the gun does FOR ITS CLASS (e.g. 100 damage is high for ARs, but very low for snipers.) Usually don't mention for special weapons.
 <SHORT DESCRIPTION> should mention what kind of gun it is (e.g. Assault Rifle, Light Shotgun). The list of these are below.
+<INTERESTING ASPECT> should contain something interesting or notable about the gun's stats, if there is anything interesting about it.
+Keep this consistent. Always refer to certain statistics the same way. A chart of this is below.
+
 
 Akimbo weapons are slightly different
 Wield two <MANUFACTURER> <WEAPON MODEL>s simultaneously in akimbo. <Quip>.
 <Quip> can be your funny movie/game/anime references. If you got none, just write "Make John Woo proud"
 
 ---GUN TYPES, damage tiers:---
-Carbine - 40-damage ARs
-Assault Rifle - 60-damage ARs
-Battle Rifle - 100-damage ARs
-DMR -160+ damage ARs
-marksman's sniper rifle -
-sniper rifle
-anti-material rifle
-rifle
+Carbine (40-damage ARs) - Low damage
+Assault Rifle (60-damage ARs) - Moderate damage
+Battle Rifle (100-damage ARs) - High damage
+DMR (160+ damage ARs) - Very high damage
 
+marksman's sniper rifle (160 dmg snipers) - Low damage
+sniper rifle (240 dmg snipers) - Moderate damage
+sniper rifle (480 dmg snipers) - High damage
+anti-material rifle (purple number) - Extreme damage
+rifle (lever actions etc.) - refer damage number to above sniper chart
 
+SMG:
+40dmg - Low damage
+60dmg - Moderate damage
+100dmg - High damage
 
-SMG
 LMG
+80dmg - Moderate damage
+120dmg - High damage
 
-Light Shotgun
-Shotgun
-Heavy Shotgun
+Light Shotgun (40-60dmg SGs) - Low damage
+Shotgun (80-100dmg SGs) - Moderate damage
+Heavy Shotgun (120+dmg SGs) - High damage
+
+Handgun/Revolver
+40-dmg - Low damage
+60-80dmg - Moderate damage
+120dmg - High damage
+180dmg - Very high damage
+
+Bows - Fires reusable arrows
+Crossbows - Fires reusable bolts
+Grenade launcher - see existing descriptions
+Weapons that have disabled ammo pickup should keep "AMMO PICKUP IS DISABLED FOR THIS WEAPON"
 
 todo: fill out the rest of this stuff
+
+---Interesting Aspects---
+Accuracy: Awful / Poor / Good / Great accuracy
+Stability: Awful / Poor / Good / Great stability
+Concealment: Awful / Poor / Good / Great concealment
+Ammo Capacity (total): Very Low / Low / Moderate / High / Very High ammo capacity
+Ammo Capacity (mags): Small / Large magazines
+Mod pool: Limited / Moderate / Decent / Wide part variety
+ROF: High / Blistering rate of fire
+Reload time: Painfully Sluggish / Sluggish / Fast / Rapid reloads
+Range: Short / Long range
+
+Comes with Silencer: Integrally Suppressed
+Vanilla nicknamed: The '<NICKNAME>'
+DOT: Sets enemies on fire / Poisons enemies
+Automatic (weapon class odity): Capable of automatic fire
+AP: Penetrates body armour
+Balanced Stats: Balanced performance
+
+if theres an aspect not here that you feel should be mentioned, add it to your description, then write rules above
 
 ----------------------------------------------------------------------
 
