@@ -66,7 +66,7 @@ todo: fill out the rest of this stuff
 ---Interesting Aspects---
 Accuracy: Awful / Poor / Good / Great accuracy
 Stability: Awful / Poor / Good / Great stability
-Concealment: Awful / Poor / Good / Great concealment
+Concealment: Low / Poor / Good / High concealment
 Ammo Capacity (total): Very Low / Low / Moderate / High / Very High ammo capacity
 Ammo Capacity (mags): Small / Large magazines
 Mod pool: Limited / Moderate / Decent / Wide part variety
@@ -80,6 +80,7 @@ DOT: Sets enemies on fire / Poisons enemies
 Automatic (weapon class odity): Capable of automatic fire
 AP: Penetrates body armour
 Balanced Stats: Balanced performance
+Underbarrel: Has an underbarrel <weapon>
 
 if theres an aspect not here that you feel should be mentioned, add it to your description, then write rules above
 
