@@ -50,7 +50,7 @@ Light Shotgun (40-60dmg SGs) - Low damage
 Shotgun (80-100dmg SGs) - Moderate damage
 Heavy Shotgun (120+dmg SGs) - High damage
 
-Handgun/Revolver
+Handgun/Revolver/Machine Pistol
 40-dmg - Low damage
 60-80dmg - Moderate damage
 120dmg - High damage
@@ -69,6 +69,7 @@ Stability: Awful / Poor / Good / Great stability
 Concealment: Low / Poor / Good / High concealment
 Ammo Capacity (total): Very Low / Low / Moderate / High / Very High ammo capacity
 Ammo Capacity (mags): Small / Large magazines
+Ammo Pickup: Scarce / Moderate / High ammo return
 Mod pool: Limited / Moderate / Decent / Wide part variety
 ROF: High / Blistering rate of fire
 Reload time: Painfully Sluggish / Sluggish / Fast / Rapid reloads
@@ -78,9 +79,10 @@ Comes with Silencer: Integrally Suppressed
 Vanilla nicknamed: The '<NICKNAME>'
 DOT: Sets enemies on fire / Poisons enemies
 Automatic (weapon class odity): Capable of automatic fire
-AP: Penetrates body armour
+AP: Penetrates body armour / AP ammo available (if AP is an optional attachment)
 Balanced Stats: Balanced performance
 Underbarrel: Has an underbarrel <weapon>
+Burst-fire: Has a burst-fire function
 
 if theres an aspect not here that you feel should be mentioned, add it to your description, then write rules above
 
