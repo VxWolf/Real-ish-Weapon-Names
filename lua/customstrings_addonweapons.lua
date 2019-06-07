@@ -5,6 +5,12 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_AddonGuns", function(loc)
 		bm_w_dp28 = "Tachanka LT28", --DP28
 		bm_w_dp28_desc = "Old WWII Russian LMG. Extreme damage - Wide part variety.",
 
+		bm_w_hshdm = "OSS High Model", --Silent Killer pack - HDM pistol.. 
+		--this is a hard gun to make a made-up name. High Standard manuf doesnt leave a lot to the imagination, and the pistol is just named HDM.. I opted to use OSS as manuf
+		bm_w_hshdm_desc = "If the British have the Wynstick, the US got its High Model pistol. Moderate damage - Integrally Suppressed.",
+		bm_w_x_hshdm = "Akimbo OSS High Model",
+		bm_w_x_hshdm_desc = "Wield two OSS High Models simultaneously in akimbo. Make the Secret Service proud.",
+
 
 		--Carl
 		bm_w_nya = "ParkHale IDW", --made by Parker-Hale
@@ -16,21 +22,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_AddonGuns", function(loc)
 		--Matthelzor
 		bm_w_yayo = "Crosskill AMR-16 'Montana'", --Montana 5.56
 		bm_w_yayo_desc = "The infamous assault rifle of an infamous drug lord. Moderate damage - Has an underbarrel grenade launcher.",
-    
-    
-		--Silent Enforcer
-		bm_w_toz194 = "IZHMA Tulip 194",  --Tula Arms are now under the IZHMA conglomerate, Tula is now TOZ shotgun brand line
-		bm_w_toz194_desc = "Exceptionally long-barreled shotgun made to pass Russian civilian firearm ownership laws. Moderate damage - Low ammo capacity.",
-		
-		bm_w_qbs = "Chicom QSho-9", --Norinco QBS-09, Sho for Shotgun
-		bm_w_qbs_desc = "Semi-automatic light shotgun adopted by Chinese armies. Low damage - High concealment.",
-		
-		bm_w_qbz3 = "Chicom QArM-3", --QBZ-03, ArM for AR Modern. The probable evolution of bullpup QBZ 95 to conventional mag-front-trigger form
-		bm_w_qbz3_desc = "Touted to be the next evolution of Chinese Assault Rifle. Moderate damage - Balanced performance.",
-		
-		bm_w_qbz95 = "Chicom QAr-95", --QBZ95, Ar for assault rifle
-		bm_w_qbz95_desc = "The mainline assault rifle of Chinese armies. Moderate damage - Decent part variety.",
-		
+    		
 		
 		--Ellie
 		bm_w_fyjs = "Chicom FYJS", --included for PLA pack completeness

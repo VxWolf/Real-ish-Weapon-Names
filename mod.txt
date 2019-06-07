@@ -44,6 +44,10 @@
 		},		
 		{
 			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/addon_weapons/customstrings_silentenforcer_addonweapons.lua"
+		},		
+		{
+			"hook_id": "lib/managers/localizationmanager",
 			"script_path": "lua/customstrings_weapons.lua"
 		},
 		{

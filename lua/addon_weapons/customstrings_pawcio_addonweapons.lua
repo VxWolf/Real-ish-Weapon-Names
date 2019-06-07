@@ -58,6 +58,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Pawcio_AddonGuns", function(loc
 		bm_w_sg510 = "Signature Commando Prototype",
 		bm_w_sg510_desc = "The progenitor of swiss high-quality Sig assault rifle. High damage - Poor stability.",				
 
+		bm_w_ultimax = "Merlion Ultimate 105", --STK Ultimax 100 Mark 5, Singaporean gun Lion from the symbol of Singapore, a lion mermaid
+		bm_w_ultimax_desc = "Singaporean-borne LMG touted as the most lightweight machine gun in the world. Moderate damage - High concealment.",				
+
         
         thisaswellisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add a gun
     })
