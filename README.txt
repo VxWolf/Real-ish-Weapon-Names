@@ -91,9 +91,12 @@ if theres an aspect not here that you feel should be mentioned, add it to your d
 CHANGE LOG:
 
 v7
+-Added support for a LOT of custom weapons. 
+This spans between custom weapon made by Pawcio, Silent Enforcer, Gambyt/Matthelzor, Killerwolf, Germantacos, Carl ruins everything and Zdann (Thanks Alcat)
 -Added support for a few ResMod foregrips
--Added support for a few extra mod weapons and attachments (Thanks Alcat)
+-Added support for Gambyt's Suppressor pack
 -Improved consistency between weapon descriptions
+-Added readme Style Guide section to for other people to submit their gun name with this mod style
 
 v6
 -Added support for some barrel extensions
