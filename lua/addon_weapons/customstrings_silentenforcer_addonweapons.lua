@@ -16,7 +16,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_SilentEnforcer_AddonGuns", func
 
 		bm_w_welrod = "Bureau-IX Wynstick", --Silent Killer pack - Welrod
 		--name derived from Welwyn Garden City (the place its made of), and synonym word of rod. Bureau-IX is the made-up name from where the gun is devised, Inter-Services Research Bureau (later Station IX)
-		bm_w_welrod_desc = "The covert-ops pistol of the resistance. Moderate damage - Integrally Suppressed.",
+		bm_w_welrod_desc = "The covert-ops pistol of the resistance. High damage - Integrally Suppressed.",
 
 		
                

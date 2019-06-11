@@ -7,7 +7,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_AddonGuns", function(loc)
 
 		bm_w_hshdm = "OSS High Model", --Silent Killer pack - HDM pistol.. 
 		--this is a hard gun to make a made-up name. High Standard manuf doesnt leave a lot to the imagination, and the pistol is just named HDM.. I opted to use OSS as manuf
-		bm_w_hshdm_desc = "If the British have the Wynstick, the US got its High Model pistol. Moderate damage - Integrally Suppressed.",
+		bm_w_hshdm_desc = "If the British have the Wynstick, the US got its High Model pistol. Low damage - Integrally Suppressed.",
 		bm_w_x_hshdm = "Akimbo OSS High Model",
 		bm_w_x_hshdm_desc = "Wield two OSS High Models simultaneously in akimbo. Make the Secret Service proud.",
 

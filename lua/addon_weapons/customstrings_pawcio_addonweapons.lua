@@ -26,7 +26,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Pawcio_AddonGuns", function(loc
 		bm_w_galilace762_desc = "The battle rifle version of the Ace rifle. High damage - Wide part variety.",
 		
 		bm_w_g36k = "SG JP36-K",
-		bm_w_g36k_desc = "The long version of JP36 assault rifle. Low damage - High ammo capacity.",
+		bm_w_g36k_desc = "The long version of JP36 assault rifle. Moderate damage - Balanced Performance.",
 
 		bm_w_mg4 = "SG MG 5.56",
 		bm_w_mg4_desc = "Schafer & Gewehr Modern LMG. Low damage - High ammo capacity.",

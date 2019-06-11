@@ -65,7 +65,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Alcat_AddonGuns", function(loc)
         bm_w_x_techno_desc = "Said to be a replica of a gun used in the infamous bar-fight on some off-grid harbor in Southeast Asia.",
 
         bm_w_max9 = "BeSilent! Maxsil 9", --Silent Killer pack - Maxim 9
-        bm_w_max9_desc = "Unique handgun with built-in default silencer. Moderate damage - Integrally suppressed.",
+        bm_w_max9_desc = "Modern handgun with unique built-in silencer method. Moderate damage - Integrally suppressed.",
         
 		bm_w_minebea = "Mineabee PM-9", --Weeb SMG
         bm_w_minebea_desc = "Export-banned Japanese military SMG. Low damage - Blistering rate of fire.",
