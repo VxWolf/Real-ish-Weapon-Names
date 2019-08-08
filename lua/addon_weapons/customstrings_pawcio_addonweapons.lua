@@ -61,6 +61,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Pawcio_AddonGuns", function(loc
 		bm_w_ultimax = "Merlion Ultimate 105", --STK Ultimax 100 Mark 5, Singaporean gun Lion from the symbol of Singapore, a lion mermaid
 		bm_w_ultimax_desc = "Singaporean-borne LMG touted as the most lightweight machine gun in the world. Moderate damage - High concealment.",				
 
+		bm_w_sw327r8 = "J&M Tarantula-8", --R8 revolver, in OTWD as J&M (Smith & Wesson) LAW Tarantula
+		bm_w_sw327r8_desc = "8 capacity high stopping power revolver. High damage - Awful Stability.",				
+
         
         thisaswellisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add a gun
     })
