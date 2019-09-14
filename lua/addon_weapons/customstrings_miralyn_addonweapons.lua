@@ -35,7 +35,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Mira_AddonGuns", function(loc)
         bm_w_x_vp70_desc = "Wield two LSC-70s simultaneously in akimbo. Make Leon Scott Kennedy envy you.",
 
 	bm_w_wargoddess = "Moonbase Armory Mk14", --Mk 14 EBR
-        bm_w_wargoddess_desc = "A unique mix between the AR and SR. Sniper rifle level of Armor Penetration - High RoF.",
+        bm_w_wargoddess_desc = "A unique mix between the AR and SR stats. Sniper rifle level of Armor Penetration - High RoF.",
 
 	bm_w_t1000x5 = "WepSys T5K", --ORSIS T-5000 |ORSIS literally stands for Weapon Systems
         bm_w_t1000x5_desc = "Russian high-precision sniper rifle. Great accuracy - Large magazines.",
