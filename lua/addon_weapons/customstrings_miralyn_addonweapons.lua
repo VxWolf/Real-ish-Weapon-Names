@@ -40,7 +40,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Mira_AddonGuns", function(loc)
 	bm_w_t1000x5 = "WepSys T5K", --ORSIS T-5000 |ORSIS literally stands for Weapon Systems
         bm_w_t1000x5_desc = "Russian high-precision sniper rifle. Great accuracy - Large magazines.",
 
-	bm_w_shieldgirl = "Sandy Tech MDR-C", --MDR-C
+	bm_w_shieldgirl = "Crosskill MDR-C", --MDR-C
         bm_w_shieldgirl_desc = "Compact version of the American bullpup rifle. Good concealment - High ammo capacity",
 
 	bm_w_op68 = "Reinfeld ACR-CQB", --ACR-C
