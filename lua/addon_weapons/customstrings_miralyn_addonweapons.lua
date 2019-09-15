@@ -63,7 +63,18 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Mira_AddonGuns", function(loc)
 
 	bm_w_hugsforleon = "Tecci CL-3", --TR-1
         bm_w_hugsforleon_desc = "Wick's rifle of choice. Semi-auto only - Higher stats compared to other ARs",
-        
+ 
+	bm_w_mac10mpa = "Ingrid Mark 11 Custom", --SMG-11
+        bm_w_mac10mpa_desc = "Heavily customized Mark 11 machine pistol. High damage - Blistering rate of fire",    
+ 
+	bm_w_wes92se = "Bernetti B9S Custom (W)", --Samurai Edge
+        bm_w_wes92se_desc = "Custom-built for SWAT COs. Moderate damage - The 'Samurai Edge'.",       
+ 
+	bm_w_stf12 = "Foburme ITA12 Compact", --STF-12
+        bm_w_st12_desc = "Italian pump-action shotgun. High damage - High rate of fire.",   
+ 
+	bm_w_kingcobra = "Crosskill Venom Snake", --Colt King Cobra | Hehehe, Venom Snake
+        bm_w_kingcobra_desc = "American revolver. Very high damage - small magazines.",   
 
         thisaswellisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add a gun
     })
