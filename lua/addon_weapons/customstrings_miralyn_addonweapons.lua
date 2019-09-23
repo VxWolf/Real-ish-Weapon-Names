@@ -12,7 +12,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Mira_AddonGuns", function(loc)
         bm_w_bigbust_desc = "Bullpup sniper rifle. High damage - Great accuracy.",
 
 	bm_w_grotb = "Radon MFS-5.56B", --MSBS-5.56B
-        bm_w_grotb_desc = "Bullpup variant of the Polish assault rifle. Low damage - High concealment.",
+        bm_w_grotb_desc = "Bullpup variant of the Polish assault rifle. Moderate damage - Good concealment.",
 
 	 bm_w_fang45 = "MWR Fang-45", --Fang-45
         bm_w_fang45_desc = "Custom-built SMG based on the CAR platform. Moderate ammo capacity - Poor concealment",
