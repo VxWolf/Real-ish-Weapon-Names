@@ -2,6 +2,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_SilentEnforcer_AddonGuns", func
     LocalizationManager:add_localized_strings({
 
 		--Silent Enforcer
+		bm_w_m3 = "Motoral \"Greaser\" Cal.45",  --designed by General Motor
+		bm_w_m3_desc = "Cheap, effective submachine gun nicknamed because of its similarity with mechanic's tool. High stability - Wide part variety.",
+		
 		bm_w_toz194 = "IZHMA Tulip 194",  --Tula Arms are now under the IZHMA conglomerate, Tula is now TOZ shotgun brand line
 		bm_w_toz194_desc = "Exceptionally long-barreled shotgun made to pass Russian civilian firearm ownership laws. Moderate damage - Low ammo capacity.",
 		
