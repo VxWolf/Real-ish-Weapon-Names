@@ -2,6 +2,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_SilentEnforcer_AddonGuns", func
     LocalizationManager:add_localized_strings({
 
 		--Silent Enforcer
+		bm_w_g43 = "Reich Gewehr-43",  
+		bm_w_g43_desc = "Germany automatic rifle design in WW2, sometimes used as precision weapon. Low damage - High rate of fire.",
+		
 		bm_w_m3 = "Motoral \"Greaser\" Cal.45",  --designed by General Motor
 		bm_w_m3_desc = "Cheap, effective submachine gun nicknamed because of its similarity with mechanic's tool. High stability - Wide part variety.",
 		
@@ -16,6 +19,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_SilentEnforcer_AddonGuns", func
 		
 		bm_w_qbz95 = "Chicom QAr-95", --QBZ95, Ar for assault rifle
 		bm_w_qbz95_desc = "The mainline assault rifle of Chinese armies. Moderate damage - Decent part variety.",
+
+		bm_w_stg44 = "Reich Schnellgewehr-44", 
+		bm_w_stg44_desc = "The progenitor of \"Assault Rifle\" class of firearm. High damage - Slow rate of fire.",
 
 		bm_w_welrod = "Bureau-IX Wynstick", --Silent Killer pack - Welrod
 		--name derived from Welwyn Garden City (the place its made of), and synonym word of rod. Bureau-IX is the made-up name from where the gun is devised, Inter-Services Research Bureau (later Station IX)

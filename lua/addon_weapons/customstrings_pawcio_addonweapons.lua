@@ -40,6 +40,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Pawcio_AddonGuns", function(loc
 		bm_w_lsat = "LSAT LightTech", --designed by AAI Corp, doesnt have the equivalent small arm line. Using LSAT for manuf for now
 		bm_w_lsat_desc = "An LMG borne from joint researh to develop a lighter gun using lighter ammunition. Moderate damage - Great stability.",
 			
+		bm_w_hk416 = "SG CAR-416", 
+		bm_w_hk416_desc = "Schafer & Gewehr design take on the AR-15 platform. Moderate damage - Wide part variety.",
+			
 		bm_w_m60 = "Crosskill M60", --Manuf by US Ordnance, which also make M16, so in-universify to Crosskill
 		bm_w_m60_desc = "LMG affectionately named 'The Pig'... used against 'the cops'. High damage - Low rate of fire.",
 			
