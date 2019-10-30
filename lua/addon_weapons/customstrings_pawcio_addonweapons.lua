@@ -43,6 +43,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Pawcio_AddonGuns", function(loc
 		bm_w_hk416 = "SG CAR-416", 
 		bm_w_hk416_desc = "Schafer & Gewehr design take on the AR-15 platform. Moderate damage - Wide part variety.",
 			
+		bm_w_m1a1 = "Moonbase Armory M1 Carbine",
+		bm_w_m1a1_desc = "Lightweight, reliable intermediate cartridge US weapon of WW2. Moderate damage - Wide part variety.",
+			
 		bm_w_m60 = "Crosskill M60", --Manuf by US Ordnance, which also make M16, so in-universify to Crosskill
 		bm_w_m60_desc = "LMG affectionately named 'The Pig'... used against 'the cops'. High damage - Low rate of fire.",
 			
