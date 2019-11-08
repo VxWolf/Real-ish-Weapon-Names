@@ -5,7 +5,7 @@ All weapon names and descriptions follow a convention, to ensure consistency bet
 
 A weapon's name looks like this
 <MANUFACTURER> <WEAPON MODEL>
-<MANUFACTURER> is the weapon's manufacturer. These should almost never match the weapon's IRL manufacturer, check other weapons in customstrings_weapons.lua for manufacturers already established If it's a gun from  a made up manufacturer, and it already has markings on its body, derive from that instead.
+<MANUFACTURER> is the weapon's manufacturer. These should almost never match the weapon's IRL manufacturer, check other weapons in customstrings_weapons.lua for manufacturers already established If it's a gun from a made up manufacturer, and it already has markings on its body, derive from that instead.
 <MANUFACTURER> is the weapon's manufacturer. These should almost never match the weapon's IRL manufacturer, check other weapons in customstrings_weapons.lua for manufacturers already established. 
 <WEAPON MODEL> is the name of the gun. These should never match the weapon's IRL name. If it's a gun with a made up name, and it already has markings on its body, derive from that instead.
 
@@ -84,7 +84,7 @@ Balanced Stats: Balanced performance
 Underbarrel: Has an underbarrel <weapon>
 Burst-fire: Has a burst-fire function
 
-if theres an aspect not here that you feel should be mentioned, add it to your description, then write rules above
+if theres an aspect not here that you feel should be mentioned, add it to your description, then write into rules above
 
 ----------------------------------------------------------------------
 
