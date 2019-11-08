@@ -2,6 +2,13 @@ Drop into /mods/. Requires BLT (SuperBLT for auto-updates)
 
 CHANGE LOG:
 
+v7
+-Added support for more barrel extensions and suppressors
+-Added support for even more custom weapons and attachments
+-Updated some manufacturers
+-Added attachments from the recent Cartel Optics Pack
+-Realise I probably never released 
+
 v6
 -Added support for some barrel extensions
 -Added support for a few custom weapons (more coming eventually)
