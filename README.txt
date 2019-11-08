@@ -97,6 +97,9 @@ This spans between custom weapon made by Pawcio, Silent Enforcer, Gambyt/Matthel
 -Added support for Gambyt's Suppressor pack
 -Improved consistency between weapon descriptions
 -Added readme Style Guide section to for other people to submit their gun name with this mod style
+-Added support for more barrel extensions and suppressors
+-Updated some manufacturers
+-Added attachments from the recent Cartel Optics Pack
 
 v6
 -Added support for some barrel extensions
