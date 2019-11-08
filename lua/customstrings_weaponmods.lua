@@ -48,10 +48,23 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
         
 		--		bm_wpg_o_mbus_rear = "MBUS Front and Rear Sights", --???
 		--		bm_wpn_fps_upg_o_45iron = "XTI Angle Mount Sight", --???
-		--		bm_wp_upg_o_rmr = "Trijicon RM06 RMR Sight", --Pistol Red Dot Sight
+		bm_wp_upg_o_rmr = "SKOLD PRDc", --Pistol Red Dot Sight
+		bm_wp_upg_o_rmr_desc = "Concealable sight that slightly increases stability. Makes for quick target acquisition.",
 
 		bm_wp_upg_o_spot = "Boxar Reconnaissance", --Reconnaissance / Manufacturer is an assumption
 		bm_wp_upg_o_spot_desc = "Large sight that slightly increases stability. Has a range finding capability.",
+				
+		bm_wp_upg_o_bmg = "Trigonom Acough BMG", --Advanced Combat Sight
+		bm_wp_upg_o_bmg_desc = "Large sight that slightly increases stability. Higher magnification for longer range engagements.",
+				
+		bm_wp_upg_o_uh = "Boxar Maelstrom", --Maelstrom Sight
+		bm_wp_upg_o_uh_desc = "Sight that slightly increases stability. Has a larger reticule and sight picture, sacrificing some concealability.",
+				
+		bm_wp_upg_o_rms = "SKOLD RMSc", --SKOLD Reflex Micro Sight
+		bm_wp_upg_o_rms_desc = "Low profile sight. Sacrifices stability.",
+				
+		bm_wp_upg_o_rikt = "Riktpunkt Holosight", --Riktpunkt Holosight
+		bm_wp_upg_o_rikt_desc = "Concealable sight that slightly increases stability. Makes for quick target acquisition.",
 
 		bm_wp_pis_deagle_extra = "Toucan Rail", --Deagle Scope Mount
 		bm_wp_pis_deagle_extra_desc = "Augmentation that allows standard sights to be attached.",
@@ -243,7 +256,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 
 		bm_wp_upg_ns_ass_pbs1 = "IZHMA PBS",
 		bm_wp_upg_ns_ass_pbs1_desc = "Suppressor that slightly increases stability. Sacrifices concealment.",
-				
+		
 		bm_wp_upg_ns_ass_filter = "Old Bain's Classic Oil Filter",
 		bm_wp_upg_ns_ass_filter_desc = "Makeshift suppressor that eliminates firing noise. Greatly sacrifices damage, accuracy and concealment.",
 				
@@ -251,7 +264,13 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 		bm_wp_upg_ns_pis_large_desc = "Suppressor that increases stability. Sacrifices damage and concealment.",
 				
 		bm_wp_upg_ns_pis_medium_slim = "Bowser Asepsis",
-		bm_wp_upg_ns_pis_medium_slim_desc = "Suppressor eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+		bm_wp_upg_ns_pis_medium_slim_desc = "Suppressor that eliminates firing noise. Sacrifices accuracy, stability and concealment.",
+
+		bm_wp_upg_ns_shot_thick = "BeSilent! Silent Killer",
+		bm_wp_upg_ns_shot_thick_desc = "Suppressor that slightly increases stability. Sacrifices damage and concealment.",
+				
+		bm_wp_upg_ns_sho_salvo_large = "BeSilent! Ssh!",
+		bm_wp_upg_ns_sho_salvo_large_desc = "Suppressor that slightly increases accuracy and stability. Sacrifices damage and concealment.",
 	
 	--Compensators
 		bm_wp_upg_ns_ass_smg_stubby = "Dninnu Stubby",
@@ -274,6 +293,21 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 
 		bm_wp_ns_battle = "Goats' Frontline BattlePorted",
 		bm_wp_ns_battle_desc = "Compensator that increases damage and accuracy. Sacrifices stability.",
+				
+		bm_wp_upg_ns_shot_shark = "Goats' Frontline Shark Teeth",
+		bm_wp_upg_ns_shot_shark_desc = "Nozzle that increases damage and stability. Sacrifices accuracy.",
+				
+		bm_wp_upg_shot_ns_king = "Donald's King's Crown",
+		bm_wp_upg_shot_ns_king_desc = "Compensator that increases damage and accuracy.",
+				
+		bm_wp_ns_duck = "Donald's Horizontal Leveller",
+		bm_wp_ns_duck_desc = "Compensator that increases damage and stability. Flattens vertical spread.",
+				
+		bm_wp_upg_ns_typhoon = "Dninnu Hurricane", --Hurricane Compensator
+		bm_wp_upg_ns_typhoon_desc = "Compensator that increases stability, damage, and accuracy. Sacrifices concealment.",
+				
+		bm_wp_upg_ns_ass_smg_v6 = "SG Marmon", --Marmon Compensator
+		bm_wp_upg_ns_ass_smg_v6_desc = "Compensator that increases accuracy and stability. Sacrifices concealment.",
 
         thislineisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add an attachment
     })
