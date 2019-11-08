@@ -1,13 +1,105 @@
 Drop into /mods/. Requires BLT (SuperBLT for auto-updates)
 
+------------STYLE GUIDE FOR THOSE ADDING THEIR OWN WEAPONS------------ (wip)
+All weapon names and descriptions follow a convention, to ensure consistency between all of them
+
+A weapon's name looks like this
+<MANUFACTURER> <WEAPON MODEL>
+<MANUFACTURER> is the weapon's manufacturer. These should almost never match the weapon's IRL manufacturer, check other weapons in customstrings_weapons.lua for manufacturers already established If it's a gun from  a made up manufacturer, and it already has markings on its body, derive from that instead.
+<MANUFACTURER> is the weapon's manufacturer. These should almost never match the weapon's IRL manufacturer, check other weapons in customstrings_weapons.lua for manufacturers already established. 
+<WEAPON MODEL> is the name of the gun. These should never match the weapon's IRL name. If it's a gun with a made up name, and it already has markings on its body, derive from that instead.
+
+Akimbo weapons are slightly different
+Akimbo <MANUFACTURER> <WEAPON MODEL>
+
+A weapon's description looks like this:
+<SHORT DESCRIPTION>. <DAMAGE TIER> - <INTERESTING ASPECT>.
+
+<DAMAGE TIER> should refer to the amount of damage the gun does FOR ITS CLASS (e.g. 100 damage is high for ARs, but very low for snipers.) Usually don't mention for special weapons.
+<SHORT DESCRIPTION> should mention what kind of gun it is (e.g. Assault Rifle, Light Shotgun). The list of these are below.
+<INTERESTING ASPECT> should contain something interesting or notable about the gun's stats, if there is anything interesting about it.
+Keep this consistent. Always refer to certain statistics the same way. A chart of this is below.
+
+
+Akimbo weapons are slightly different
+Wield two <MANUFACTURER> <WEAPON MODEL>s simultaneously in akimbo. <Quip>.
+<Quip> can be your funny movie/game/anime references. If you got none, just write "Make John Woo proud"
+
+---GUN TYPES, damage tiers:---
+Carbine (40-damage ARs) - Low damage
+Assault Rifle (60-damage ARs) - Moderate damage
+Battle Rifle (100-damage ARs) - High damage
+DMR (160+ damage ARs) - Very high damage
+
+marksman's sniper rifle (160 dmg snipers) - Low damage
+sniper rifle (240 dmg snipers) - Moderate damage
+sniper rifle (480 dmg snipers) - High damage
+anti-material rifle (purple number) - Extreme damage
+rifle (lever actions etc.) - refer damage number to above sniper chart
+
+SMG:
+40dmg - Low damage
+60dmg - Moderate damage
+100dmg - High damage
+
+LMG
+80dmg - Moderate damage
+120dmg - High damage
+
+Light Shotgun (40-60dmg SGs) - Low damage
+Shotgun (80-100dmg SGs) - Moderate damage
+Heavy Shotgun (120+dmg SGs) - High damage
+
+Handgun/Revolver/Machine Pistol
+40-dmg - Low damage
+60-80dmg - Moderate damage
+120dmg - High damage
+180dmg - Very high damage
+
+Bows - Fires reusable arrows
+Crossbows - Fires reusable bolts
+Grenade launcher - see existing descriptions
+Weapons that have disabled ammo pickup should keep "AMMO PICKUP IS DISABLED FOR THIS WEAPON"
+
+todo: fill out the rest of this stuff
+
+---Interesting Aspects---
+Accuracy: Awful / Poor / Good / Great accuracy
+Stability: Awful / Poor / Good / Great stability
+Concealment: Low / Poor / Good / High concealment
+Ammo Capacity (total): Very Low / Low / Moderate / High / Very High ammo capacity
+Ammo Capacity (mags): Small / Large magazines
+Ammo Pickup: Scarce / Moderate / High ammo return
+Mod pool: Limited / Moderate / Decent / Wide part variety
+ROF: High / Blistering rate of fire
+Reload time: Painfully Sluggish / Sluggish / Fast / Rapid reloads
+Range: Short / Long range
+
+Comes with Silencer: Integrally Suppressed
+Vanilla nicknamed: The '<NICKNAME>'
+DOT: Sets enemies on fire / Poisons enemies
+Automatic (weapon class odity): Capable of automatic fire
+AP: Penetrates body armour / AP ammo available (if AP is an optional attachment)
+Balanced Stats: Balanced performance
+Underbarrel: Has an underbarrel <weapon>
+Burst-fire: Has a burst-fire function
+
+if theres an aspect not here that you feel should be mentioned, add it to your description, then write rules above
+
+----------------------------------------------------------------------
+
 CHANGE LOG:
 
 v7
+-Added support for a LOT of custom weapons. 
+This spans between custom weapon made by Pawcio, Silent Enforcer, Gambyt/Matthelzor, Killerwolf, Germantacos, Carl ruins everything and Zdann (Thanks Alcat)
+-Added support for a few ResMod foregrips
+-Added support for Gambyt's Suppressor pack
+-Improved consistency between weapon descriptions
+-Added readme Style Guide section to for other people to submit their gun name with this mod style
 -Added support for more barrel extensions and suppressors
--Added support for even more custom weapons and attachments
 -Updated some manufacturers
 -Added attachments from the recent Cartel Optics Pack
--Realise I probably never released 
 
 v6
 -Added support for some barrel extensions
