@@ -105,7 +105,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_ksg = "Tecci Raven",   		          --Raven
 		bm_w_ksg_desc = "A shotgun with unique feed system. Moderate damage - Large magazines.",
 
-		bm_w_aa12 = "Attchinson Steakout 12G",		      --Steakout 12G
+		bm_w_aa12 = "Crosskill Steakout 12G",		      --Steakout 12G
 		bm_w_aa12_desc = "Fully automatic magazine-fed light shotgun. Low damage - high ammo capacity.",
 
 		bm_w_boot = "Eaton Breaker 12G",                   --Breaker 12G
@@ -120,10 +120,10 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_serbu = "Reinbeck Locomotive 12G",			  --Locomotive 12G
 		bm_w_serbu_desc = "Shortened standard shotgun. Moderate damage - high rate of fire.",
 
-		bm_w_striker = "Citadel Street Sweeper",              --Street Sweeper
+		bm_w_striker = "Public Defender Street Sweeper",              --Street Sweeper
 		bm_w_striker_desc = "South African shotgun. Moderate damage - Large magazines.",
 
-		bm_w_m37 = "GSPS",	                   		      --GSPS Shotgun / idk
+		bm_w_m37 = "GS PS12G", 	                   		      --GSPS Shotgun / OTWD has CG PS12G
 		bm_w_m37_desc = "Heavy shotgun intended for police use. High damage - Large magazines.",
 
 		bm_w_basset = "IZHMA Grimm 12G",            		  --Grimm 12G
@@ -241,7 +241,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_p90_desc = "Wield two UN Kobus 90s simultaneously in akimbo. Make John Woo proud.",
 
 		bm_w_x_polymer = "Akimbo KrossVertex Polygon", --Akimbo Kross Vertex 
-		bm_w_x__desc = "Wield two KrossVertex Polygons simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_polymer_desc = "Wield two KrossVertex Polygons simultaneously in akimbo. Make John Woo proud.",
 
 		bm_w_x_coal = "Akimbo IZHMA Tatonka", --Akimbo Tatonkas
 		bm_w_x_coal_desc = "Wield two IZHMA Tatonkas simultaneously in akimbo. Make John Woo proud.",
@@ -286,7 +286,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_saw = "OVE9000",                             --SAW
 		bm_w_saw_desc = "Ammo pickups are disabled for this weapon.",
 
-		bm_w_m134 = "Overkill Industries Tatsuto Peasemaker Vulcan",   --Vulcan Minigun / I faintly saw "tatsuto peasemaker[sic] on the side of the minigun",
+		bm_w_m134 = "Overkill Tatsuto Peasemaker Vulcan",   --Vulcan Minigun / I faintly saw "tatsuto peasemaker[sic] on the side of the minigun",
 		bm_w_m134_desc = "Chainsaw grip portable minigun. Blistering rate of fire.",
 
 		bm_w_m32 = "Public Defender Piglet",       		  --Piglet GL
@@ -308,7 +308,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_slap = "SG Patchett Compact",				  --Compact 40mm Grenade Launcher
 		bm_w_slap_desc = "Fires a grenade that explodes on impact. Perfect for powerful crowd control.",
 
-		bm_w_shuno = "Overkill Industries XL 5.56",  		  --XL 5.56 Microgun
+		bm_w_shuno = "Overkill XL 5.56",  		  --XL 5.56 Microgun
 		bm_w_shuno_desc = "Shoulder-resting portable microgun. Blistering rate of fire.",
 
 		bm_w_system = "Modestly Awesome MA-17",  			          --MA-17 Flamethrower
