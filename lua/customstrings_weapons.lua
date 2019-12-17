@@ -87,7 +87,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_spas12 = "Ferino Predator SP-14",                     --Predator 12 / name from otwd
 		bm_w_spas12_desc = "Hoxton's light shotgun of choice. Low damage - high rate of fire.",
 
-		bm_w_b682 = "Bernetti Joceline O/U12G",            --Joceline O/U 12G
+		bm_w_b682 = "Bernetti Joceline O/U",            --Joceline O/U 12G
 		bm_w_b682_desc = "Bonnie's heavy shotgun of choice. High damage - low ammo capacity.",
 
 		bm_w_r870 = "Reinbeck Reinfeld 880",               --Reinfield 880
