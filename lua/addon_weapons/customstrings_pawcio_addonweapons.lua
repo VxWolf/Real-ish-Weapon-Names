@@ -55,6 +55,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Pawcio_AddonGuns", function(loc
 		bm_w_unica6 = "Matever Auto-Revolver",
 		bm_w_unica6_desc = "The impeccable Matever revolver in fast action. High damage - High rate of fire.",
 			
+		bm_w_mas49 = "FW MS-49",
+		bm_w_mas49_desc = "French take into the self-loading, magazine-fed battle rifle platform. Re-purposed as precision weapon by the gang. Medium damage - Good stability.",
+			
 		bm_w_cs5 = "McMilano 'Stubby'",
 		bm_w_cs5_desc = "'Compact' sniper rifle. Moderate damage - High concealment.",
 			
