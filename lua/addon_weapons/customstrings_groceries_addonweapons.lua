@@ -31,14 +31,26 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Groceries_AddonGuns", function(
 		bm_w_ak5s = "UN Custom Automat-5",
         bm_w_ak5s_desc = "A PDW custom-built in the Safehouse following the Swedish licensed FNC rifle design. Low damage - High rate of fire.",
 
+		bm_w_x_ak5s = "Akimbo UN Custom Automat-5",
+        bm_w_x_ak5s_desc = "The Payday gang made 2 of these for the sole purpose of dual-wielding it.",
+
 		bm_w_beck = "Reinbeck Custom Classic",
         bm_w_beck_desc = "A shotgun custom-built by Wolf, when he suddenly had a nostalgia of the early heisting days. High damage - Good stability.",
 
 		bm_w_car9 = "Crosskill Custom CAR-9",
         bm_w_car9_desc = "A PDW custom-built in the Safehouse following the AR-15 pattern but shortened and downsized. Low damage - High concealment.",
 
+		bm_w_x_car9 = "Akimbo Crosskill Custom CAR-9",
+        bm_w_x_car9_desc = "The Payday gang made 2 of these for the sole purpose of dual-wielding it.",
+
 		bm_w_smolak = "IZHMA Custom Smolak.762",
         bm_w_smolak_desc = "A very-shortened AK design custom-built in the Safehouse to be a full-auto pistol package. High damage - High concealment.",
+
+		bm_w_x_smolak = "Akimbo IZHMA Custom Smolak.762",
+        bm_w_x_smolak_desc = "The Payday gang made 2 of these for the sole purpose of dual-wielding it.",
+
+		bm_w_spike = "IZHMA Custom Spike.762",
+        bm_w_spike_desc = "AK rifle rebuilt in bullpup configuration in the Safehouse. High damage - High concealment.",
 
 		
                
