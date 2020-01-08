@@ -52,6 +52,12 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Groceries_AddonGuns", function(
 		bm_w_spike = "IZHMA Custom Spike.762",
         bm_w_spike_desc = "AK rifle rebuilt in bullpup configuration in the Safehouse. High damage - High concealment.",
 
+		bm_w_cold = "Crosskill Custom Operator",
+        bm_w_cold_desc = "Dallas found this old days pistol collecting dust on the Safehouse storage room. Medium damage - High stability.",
+
+		bm_w_x_cold = "Akimbo Crosskill Custom Operator",
+        bm_w_x_cold_desc = "Chains is able to fashion 2 of the same gun for dual-wielding purpose.",
+
 		
                
         thisaswellisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add a gun
