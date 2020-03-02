@@ -61,6 +61,12 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Groceries_AddonGuns", function(
 		bm_w_sgs = "Signature Custom Guerilla 553",
         bm_w_sgs_desc = "Rebuilt Commando 553 rifle with its Battle Rifle surplus part, accurized to precision weapon level. Moderate damage - Good accuracy.",
 
+		bm_w_lebman = "Crosskill Custom Trench-Auto",
+        bm_w_lebman_desc = "A modernized attempt of old trench pistol version, built locally on the safehouse. Moderate damage - Capable of automatic fire.",
+
+		bm_w_x_lebman = "Akimbo Crosskill Custom Trench-Auto",
+        bm_w_x_lebman_desc = "Double your trench sweeping effectiveness, probably lose all the accuracy factor.",
+
 		
                
         thisaswellisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add a gun
