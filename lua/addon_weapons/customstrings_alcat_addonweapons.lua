@@ -41,6 +41,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Alcat_AddonGuns", function(loc)
 		bm_w_howa = "Howl R-89", --Howa AR || unique battle rifle conversion attachment
         bm_w_howa_desc = "Smuggled out Japanese military assault rifle. Moderate damage - Battle Rifle conversion available.",
 
+		bm_w_carpet = "IZHMA Koulov 12.7", --KSVK 12.7 || Degtyarev Plant, now under IZHMA conglomerate
+        bm_w_carpet_desc = "The answer to Russian need for light-portable firearm to engage hard target. Very Extreme damage - Good concealment.",
+
 		bm_w_k1a7 = "Motive K1A7", --K1 smg || Daewoo is the old conglomerate name, its now S&T Motiv
         bm_w_k1a7_desc = "Smaller, SMG version of the K2. Starter weapon stat.",
 
@@ -95,7 +98,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Alcat_AddonGuns", function(loc)
 		bm_w_inkunzi = "Neopaw PUP 20mm", --PAW20
         bm_w_inkunzi_desc = "Grenade Launcher designed to fire 20mm canon round that allows for variety of payload.",
 
-		bm_w_pecheneg = "IZHMA Pecheneg", --PKP Pecheneg
+		bm_w_pecheneg = "IZHMA Pecheneg", --PKP Pecheneg || made by Degtyarev Plant, now under IZHMA conglomerate
         bm_w_pecheneg_desc = "General purpose machine gun named after the warlike tribe in Russian steppe. High damage - AP ammo available.",
 
 		bm_w_chang6 = "Chicom Chang-F6", --PLA - Chang6 smg, Chicom from BO2, probably something like China Communist lol
