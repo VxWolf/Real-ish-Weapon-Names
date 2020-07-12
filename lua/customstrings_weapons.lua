@@ -87,7 +87,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_spas12 = "Ferino Predator SP-14",                     --Predator 12 / name from otwd
 		bm_w_spas12_desc = "Hoxton's light shotgun of choice. Low damage - high rate of fire.",
 
-		bm_w_b682 = "Bernetti Joceline O/U",            --Joceline O/U 12G
+		bm_w_b682 = "CSCR Joceline",            --Joceline O/U 12G
 		bm_w_b682_desc = "Bonnie's heavy shotgun of choice. High damage - low ammo capacity.",
 
 		bm_w_r870 = "Reinbeck Reinfeld 880",               --Reinfield 880
@@ -198,6 +198,17 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_legacy = "Akimbo SG M13", --Akimbo Contractor
 		bm_w_x_legacy_desc = "Wield two SG M13s simultaneously in akimbo. Make John Woo proud.",
 		
+		bm_w_x_beer = "Akimbo Bernetti Automatico 93R", --Akimbo STRYK18c 
+		bm_w_x_beer_desc = "Wield two Bernetti Automatico 93Rs simultaneously in akimbo. Make John Woo proud.",
+
+		bm_w_x_czech = "Akimbo CSCR 92 Sport II", --Czech 92 Pistol
+		bm_w_x_czech_desc = "Wield two CSCR 92 Sport IIs simultaneously in akimbo. Make John Woo proud.",
+
+		bm_w_x_stech = "Akimbo Igor Automatik", --Igor Automatik Pistol
+		bm_w_x_stech_desc = "Wield two Igor Automatiks simultaneously in akimbo. Make John Woo proud.",
+
+		bm_w_x_holt = "Akimbo Holt I9", --Igor Automatik Pistol
+		bm_w_x_holt_desc = "Wield two Holt I9s simultaneously in akimbo. Make John Woo proud.",
 
 	--SMGs
 
@@ -213,8 +224,8 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_m1928 = "Akimbo Chicago Typewriter", --Akimbo Chicago Typewriter
 		bm_w_x_m1928_desc = "Wield two Chicago Typewriters simultaneously in akimbo. Make John Woo proud.",
 
-		bm_w_x_scorpion = "Akimbo TKA Cobra", --Akimbo Cobras 
-		bm_w_x_scoption_desc = "Wield two TKA Cobras simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_scorpion = "Akimbo CSCR Cobra", --Akimbo Cobras 
+		bm_w_x_scoption_desc = "Wield two CSCR Cobras simultaneously in akimbo. Make John Woo proud.",
 
 		bm_w_x_baka = "Akimbo IMI Micro Uzi", --Akimbo Micro Uzis 
 		bm_w_x_baka_desc = "Wield two IMI Micro Uzis simultaneously in akimbo. Make John Woo proud.",
@@ -264,8 +275,8 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_mp7 = "Akimbo SG SpecOps", --Akimbo 
 		bm_w_x_mp7_desc = "Wield two SG SpecOpses simultaneously in akimbo. Make John Woo proud.",
 
-		bm_w_x_sr2 = "Akimbo IZHMA Heather",            	  --Akimbo Heather SMG
-		bm_w_x_sr2_desc = "Wield two Veresk Heathers simultaneously in akimbo. This is fucking war baby!",
+		bm_w_x_sr2 = "Akimbo Igor Heather",            	  --Akimbo Heather SMG
+		bm_w_x_sr2_desc = "Wield two Igor Heathers simultaneously in akimbo. This is fucking war baby!",
 
 	--Shotguns
 
@@ -364,6 +375,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_siltstone = "IZHMA Grom",       	              --Grom Sniper Rifle
 		bm_w_siltstone_desc = "Rare Russian marksman's sniper rifle. Low damage - High concealment.",
 
+		bm_w_r700 = "Reinbeck M700",
+		bm_w_r700_desc = "Tactical precision sniper rifle. Moderate damage - Great accuracy.",
+
 --LMGs
 
 		bm_w_rpk = "IZHMA RPK",               		      --RPK
@@ -375,11 +389,14 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_hk21 = "SG Brenner-21",           		      --Brenner 21
 		bm_w_hk21_desc = "German LMG. High damage - Large magazines.",
 
-		bm_w_mg42 = "Reich Buzzsaw 42",               	  --Buzzsaw 42
+		bm_w_mg42 = "Ubertoten Buzzsaw 42",               	  --Buzzsaw 42
 		bm_w_mg42_desc = "Infamous German WWII LMG. Moderate damage - Blistering rate of fire.",
 
 		bm_w_par = "Snusk KSP58",             		      --Ksp 58
 		bm_w_par_desc = "Swedish variant of the KSP LMG that has been getting things done since the '50s. Moderate damage - Large magazines.",
+
+		bm_w_m60 = "Crosskill M60", --M60 LMG
+		bm_w_m60_desc = "Iconic wartime LMG. High damage - Low rate of fire.",
 
 --Pistols
 
@@ -417,7 +434,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_p226_desc = "Versatile modern handgun. Moderate damage - Balanced performance.",
 
 		bm_w_c96 = "Ubertoten Broomstick",                --Broomstick
-		bm_w_c96_desc = "Classic German WWI handgun. Moderate damage - High accuracy.",
+		bm_w_c96_desc = "Classic German WWI handgun. Moderate damage - Great accuracy.",
 
 		bm_w_hs2000 = "HS LEO",                              --LEO
 		bm_w_hs2000_desc = "Aggressive Croatian handgun. Moderate damage - Fast reloads.",
@@ -452,6 +469,18 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_legacy = "SG M13",  	      			  --M13 9mm Pistol
 		bm_w_legacy_desc = "A highly concealable lightweight handgun. Low damage - High concealment.",
 
+		bm_w_beer = "Bernetti Automatico 93R", --Bernetti Auto Pistol
+		bm_w_beer_desc = "An automatic Bernetti handgun. Very low damage - Capable of automatic fire.",
+
+		bm_w_czech = "CSCR 92 Sport II", --Czech 92 Pistol
+		bm_w_czech_desc = "A Czech-made machine pistol. Low damage - Capable of automatic fire.",
+
+		bm_w_stech = "Igor Automatik", --Igor Automatik Pistol
+		bm_w_stech_desc = "A Russian-made machine pistol for personal defence. Moderate damage - Capable of automatic fire.",
+
+		bm_w_holt = "Holt I9",
+		bm_w_holt_desc = "Modern handgun designed for as little recoil as possible. Moderate damage - Great stability.",
+
 --SMGs
 
 		bm_w_m1928 = "Chicago Typewriter",                  --Chicago Typewriter / idk
@@ -481,7 +510,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_mp7 = "SG SpecOps",                          --SpecOps
 		bm_w_mp7_desc = "Tactical German submachine gun. Moderate damage - Small Magazines.",
 
-		bm_w_scorpion = "TKA Cobra",                           --Cobra / name from otwd
+		bm_w_scorpion = "CSCR Cobra",                           --Cobra / name from auto pistol
 		bm_w_scorpion_desc = "Compact Czechoslovak submachine gun. Low damage - High rate of fire.",
 
 		bm_w_tec9 = "Blastatec DylK9",                         --Blaster 9mm / May go to hell for name
@@ -502,10 +531,10 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_baka = "IMI Micro Uzi",                       --Micro Uzi
 		bm_w_baka_desc = "Jiro's submachine gun of choice. Low damage - High concealment.",
 
-		bm_w_sr2 = "IZHMA Heather",                      --Heather SMG / idk
+		bm_w_sr2 = "Igor Heather",                      --Heather SMG / idk
 		bm_w_sr2_desc = "Compact Russian submachine gun. Moderate damage - High concealment.",
 
-		bm_w_hajk = "CR 805B",                             --CR 805B
+		bm_w_hajk = "CSCR 805B",                             --CR 805B
 		bm_w_hajk_desc = "Czech assault rifle. High damage - Great accuracy.",
 
 		bm_w_schakal = "SG AMP",			    	      	  --Jackal SMG

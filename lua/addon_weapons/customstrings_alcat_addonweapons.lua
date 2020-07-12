@@ -19,10 +19,8 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Alcat_AddonGuns", function(loc)
 		bm_w_calico = "Catlico M9C", --calico
         bm_w_calico_desc = "A helical-mag submachine gun, chambered in pistol cartridge. Low damage - Large magazines.",
 
-		bm_w_czauto = "CR 75 Auto", --CZ75 Auto
+		bm_w_czauto = "CSCR 75 Auto", --CZ75 Auto
         bm_w_czauto_desc = "The Wonder-9 of the full-auto pistol. Moderate damage - Capable of automatic fire.",
-		bm_w_x_czauto = "Akimbo CR 75 Auto", --CZ75 Auto
-        bm_w_x_czauto_desc = "Dual wield 2 Wonder-9 pistol with blistering rate of fire.",
 
 		bm_w_fusil = "SIMA Doble", --FAD
         bm_w_fusil_desc = "Bullpup for non-frontline crew, but packs a punch. High damage - High concealment.",
