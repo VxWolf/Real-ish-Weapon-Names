@@ -28,8 +28,8 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Germantacos_AddonGuns", functio
         bm_w_x_pm63 = "Akimbo Radon Rack-63", --god alcat you could have at least changed the weapon name comments
         bm_w_x_pm63_desc = "Wield two Radon Rack-63s simultaneously in akimbo. Make John Woo proud.",
 
-        bm_w_pb = "Makorov 9B6", --Makarov PB, should any Makarov based gun is added, they should use the manuf "Makorov"
-        bm_w_pb_desc = "The hush-hush gun version of Russia. Moderate Damage - Integrally Suppressed.",
+        bm_w_p6p9 = "Makorov 9B6", --Makarov PB, should any Makarov based gun is added, they should use the manuf "Makorov"
+        bm_w_p6p9_desc = "The hush-hush gun version of Russia. Moderate Damage - Integrally Suppressed.",
 		
                
         thisaswellisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add a gun

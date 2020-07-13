@@ -71,7 +71,7 @@ Ammo Capacity (total): Very Low / Low / Moderate / High / Very High ammo capacit
 Ammo Capacity (mags): Small / Large magazines
 Ammo Pickup: Scarce / Moderate / High ammo return
 Mod pool: Limited / Moderate / Decent / Wide part variety
-ROF: High / Blistering rate of fire
+ROF: Low / High / Blistering rate of fire
 Reload time: Painfully Sluggish / Sluggish / Fast / Rapid reloads
 Range: Short / Long range
 
@@ -90,6 +90,10 @@ if theres an aspect not here that you feel should be mentioned, add it to your d
 
 CHANGE LOG:
 
+v8
+-Added weapons from the Federales weapon pack, Fugitive weapon pack
+-other stuff i've completely forgotten about lets start fresh with these changelogs, ok?
+
 v7
 -Added support for a LOT of custom weapons. 
 This spans between custom weapon made by Pawcio, Silent Enforcer, Gambyt/Matthelzor, Killerwolf, Germantacos, Carl ruins everything and Zdann (Thanks Alcat)
@@ -99,7 +103,7 @@ This spans between custom weapon made by Pawcio, Silent Enforcer, Gambyt/Matthel
 -Added readme Style Guide section to for other people to submit their gun name with this mod style
 -Added support for more barrel extensions and suppressors
 -Updated some manufacturers
--Added attachments from the recent Cartel Optics Pack
+-Added some attachments from the Cartel Optics Pack
 
 v6
 -Added support for some barrel extensions

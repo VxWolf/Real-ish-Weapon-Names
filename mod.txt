@@ -6,14 +6,12 @@
 	"contact" : "hard",
 	"color" : "0.8 0.8 1.0",
 	"image" : "icon.png",
-	"version": "v7",
+	"version": "v8",
 	"updates" : [
     	{
 			"identifier" : "21048",
 			"host": {
 				"meta": "https://raw.githubusercontent.com/VxWolf/VxWolf-Auto-Update-JSONs/master/META-realish_weapon_and_attachment_names.json",
-				"download": "https://modworkshop.net/mydownloads.php?action=view_down&did=21048",
-				"patchnotes": "https://raw.githubusercontent.com/VxWolf/Real-ish-Weapon-Names/master/README.txt"
 			}
 		}
 	],

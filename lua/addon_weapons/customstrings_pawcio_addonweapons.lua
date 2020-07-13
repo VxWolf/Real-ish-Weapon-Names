@@ -46,17 +46,11 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Pawcio_AddonGuns", function(loc
 		bm_w_m1a1 = "Moonbase Armory M1 Carbine",
 		bm_w_m1a1_desc = "Lightweight, reliable intermediate cartridge US weapon of WW2. Moderate damage - Wide part variety.",
 			
-		bm_w_m60 = "Crosskill M60", --Manuf by US Ordnance, which also make M16, so in-universify to Crosskill
-		bm_w_m60_desc = "LMG affectionately named 'The Pig'... used against 'the cops'. High damage - Low rate of fire.",
-			
 		bm_w_obr5 = "Longhorn Tactical 5.56", --Larue changed to Longhorn
 		bm_w_obr5_desc = "Classic American assault rifle converted for precision shooting. High damage - Low ammo capacity.",
 			
 		bm_w_unica6 = "Matever Auto-Revolver",
 		bm_w_unica6_desc = "The impeccable Matever revolver in fast action. High damage - High rate of fire.",
-			
-		bm_w_mas49 = "FW MS-49",
-		bm_w_mas49_desc = "French take into the self-loading, magazine-fed battle rifle platform. Re-purposed as precision weapon by the gang. Medium damage - Good stability.",
 			
 		bm_w_cs5 = "McMilano 'Stubby'",
 		bm_w_cs5_desc = "'Compact' sniper rifle. Moderate damage - High concealment.",
