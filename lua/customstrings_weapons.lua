@@ -242,8 +242,8 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_shepheard = "Akimbo Signature SNTHC",
 		bm_w_x_shepheard_desc = "Wield two Signature SNTHCs simultaneously in akimbo. How many Nintendo consoles do you own?",
 
-		bm_w_x_erma = "Akimbo Reich MP40", --Akimbo MP40s
-		bm_w_x_erma_desc = "Wield two Reich MP40s simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_erma = "Akimbo Ubertoten MP40", --Akimbo MP40s
+		bm_w_x_erma_desc = "Wield two Ubertoten MP40s simultaneously in akimbo. Make John Woo proud.",
 
 		bm_w_x_tec9 = "Akimbo Blastatec DylK9", --Akimbo Blaster 9mm 
 		bm_w_x_tec9_desc = "Wield two Blastatec DylK9s simultaneously in akimbo. It's gonna be like playing Doom.",
@@ -543,7 +543,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_coal = "IZHMA Tatonka",		                  --Tatonka SMG
 		bm_w_coal_desc = "Russian submachine gun with unique cylindrical magazine. High damage - High magazine size.",
 
-		bm_w_erma = "Reich MP40",                                --MP40 Submachinegun
+		bm_w_erma = "Ubertoten MP40",                                --MP40 Submachinegun
 		bm_w_erma_desc = "Classic WWII machine pistol. High damage - Low ammo capacity.",
 
 		bm_w_shepheard = "Signature SNTHC", --Signature SMG
