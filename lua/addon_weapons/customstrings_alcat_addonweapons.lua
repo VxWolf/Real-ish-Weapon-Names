@@ -56,6 +56,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Alcat_AddonGuns", function(loc)
         bm_w_x_kard = "Akimbo Kross KARD",
         bm_w_x_kard_desc = "Dual wield the machine pistol to melt anything in front of you.",
 
+		bm_w_carpet = "IZHMA Koulov 12.7mm", --KSVK 12.7
+        bm_w_carpet_desc = "Russian answer for hard target elimination. Extremely high damage - Scarce ammo return.",
+
 		bm_w_m14e2 = "Moonbase Armory M308 Vintage", --M14E2 Custom
         bm_w_m14e2_desc = "The Vietnam Era of M308. Very high damage - Has 3 underbarrel choice.",
 
@@ -142,7 +145,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Alcat_AddonGuns", function(loc)
 		bm_w_contender = "Thomson Contender", --Contender Break-Action pistol
         bm_w_contender_desc = "Break-Action pistol designed for hunting game. Main selling point is the ease of changing barrel and caliber.",
 
-		bm_w_trench = "G&H Trench Gun", --Trench shotgun || Winchester manuf, since Winchester sniper is named Gage G&H, and its an old gun, I used G&H
+		bm_w_trench = "Gage G&H Trench Gun", --Trench shotgun || Winchester manuf, since Winchester sniper is named Gage G&H, and its an old gun, I used G&H
 		--Short descrip become to long so no <DAMAGE TIER> - <INTERESTING ASPECT> for now		
         bm_w_trench_desc = "The infamous shotgun that are so effective on trench warfare, it become a political target of the enemy.",
 

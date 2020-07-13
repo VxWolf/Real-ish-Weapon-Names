@@ -1,5 +1,11 @@
 Hooks:Add("LocalizationManagerPostInit", "RishWN_Pawcio_AddonGuns", function(loc)
 	LocalizationManager:add_localized_strings({
+	
+		--handover to alcat
+		bm_w_lsat = " IAA LSAT MG", --designed by AAI Corp
+		bm_w_lsat_desc = "An LMG borne from joint R&D to develop a lighter gun using lighter ammunition. Moderate damage - Good accuracy.",
+			
+		
 
 		--Pawcio
 		bm_w_appistol = "Vom Feuer AP Pistol",
@@ -36,9 +42,6 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Pawcio_AddonGuns", function(loc
 			
 		bm_w_l115 = "AIM 115M", --taken from OTWD
 		bm_w_l115_desc = "The infamous sniper rifle, magnum caliber. High damage - Low ammo capacity.",
-			
-		bm_w_lsat = "LSAT LightTech", --designed by AAI Corp, doesnt have the equivalent small arm line. Using LSAT for manuf for now
-		bm_w_lsat_desc = "An LMG borne from joint researh to develop a lighter gun using lighter ammunition. Moderate damage - Great stability.",
 			
 		bm_w_hk416 = "SG CAR-416", 
 		bm_w_hk416_desc = "Schafer & Gewehr design take on the AR-15 platform. Moderate damage - Wide part variety.",

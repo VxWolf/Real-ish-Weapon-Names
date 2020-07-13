@@ -445,7 +445,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_mateba = "Matever Custom Series .357",          --Matever
 		bm_w_mateba_desc = "Rare handgun manufactured with impeccable detail. Very high damage - Small magazines.",
 
-		bm_w_sparrow = "Foreign Arnaments Sparrow 941",       --Baby Deagle
+		bm_w_sparrow = "Foreign Armaments Sparrow 941",       --Baby Deagle
 		bm_w_sparrow_desc = "Handgun inspired by the Deagle .50c. High damage - Low fire of rate.",
 
 		bm_w_pl14 = "IZHMA White Streak",              	  --White Streak Pistol / irl made by kalashnikov concern
