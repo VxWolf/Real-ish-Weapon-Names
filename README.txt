@@ -90,6 +90,9 @@ if theres an aspect not here that you feel should be mentioned, add it to your d
 
 CHANGE LOG:
 
+v9
+-Added Gunslinger Weapons Pack weapons
+
 v8
 -Added weapons from the Federales weapon pack, Fugitive weapon pack
 -other stuff i've completely forgotten about lets start fresh with these changelogs, ok?

@@ -132,6 +132,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_coach = "Claire x2/12G",            		  --Claire 12G
 		bm_w_coach_desc = "Break-action heavy shotgun made for hunting. High damage - low ammo capacity.",
 
+		bm_w_m1897 = "Reinbeck Reinfeld 1888",
+		bm_w_m1897_desc = "Wartime trench gun that made the Germans quite unhappy. Moderate damage - High Concealment.",
+
 --Akimbos
 	--Pistols
 
@@ -210,6 +213,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_holt = "Akimbo Holt I9", --Igor Automatik Pistol
 		bm_w_x_holt_desc = "Wield two Holt I9s simultaneously in akimbo. Make John Woo proud.",
 
+		bm_w_x_model3 = "Akimbo Frenchman Model 87", --Frenchman Model 87
+		bm_w_x_model3_desc = "Wield two Frenchman Model 87s simultaneously in akimbo. Make John Woo Proud.",
+
 	--SMGs
 
 		bm_w_x_hajk = "Akimbo CR 805B", --Akimbo CR 805B 
@@ -239,7 +245,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_schakal = "Akimbo SG AMP", --Akimbo Jackal SMGs 
 		bm_w_x_schakal_desc = "Wield two SG AMPs simultaneously in akimbo. Make John Woo proud.",
         
-		bm_w_x_shepheard = "Akimbo Signature SNTHC",
+		bm_w_x_shepheard = "Akimbo Signature SNTHC", --Akimbo Signature SMGs
 		bm_w_x_shepheard_desc = "Wield two Signature SNTHCs simultaneously in akimbo. How many Nintendo consoles do you own?",
 
 		bm_w_x_erma = "Akimbo Reich MP40", --Akimbo MP40s
@@ -378,6 +384,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_r700 = "Reinbeck M700",
 		bm_w_r700_desc = "Tactical precision sniper rifle. Moderate damage - Great accuracy.",
 
+		bm_w_sbl = "Bernetti Rangehitter", --Bernetti Rangehitter
+		bm_w_sbl_desc = "Luxury lever-action rifle. Moderate damage - Large magazines.",
+
 --LMGs
 
 		bm_w_rpk = "IZHMA RPK",               		      --RPK
@@ -481,6 +490,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_holt = "Holt I9",
 		bm_w_holt_desc = "Modern handgun designed for as little recoil as possible. Moderate damage - Great stability.",
 
+		bm_w_model3 = "Frenchman Model 87", --Frenchman Model 87 Revolver
+		bm_w_model3_desc = "Special edition top-break revolver. High damage - Great accuracy.",
+
 --SMGs
 
 		bm_w_m1928 = "Chicago Typewriter",                  --Chicago Typewriter / idk
@@ -495,8 +507,8 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_mp9 = "SG CMP",                              --CMP
 		bm_w_mp9_desc = "Lightweight German submachine gun. Low damage - Good Stability.",
         
-        	bm_w_olympic = "Crosskill AMCAR-Para",      		  --Para
-        	bm_w_olympic_desc = "Compact submachine gun based on Crosskill's AM platform. Moderate damage - Decent part variety.",
+        bm_w_olympic = "Crosskill AMCAR-Para",      		  --Para
+        bm_w_olympic_desc = "Compact submachine gun based on Crosskill's AM platform. Moderate damage - Decent part variety.",
 
 		bm_w_akmsu = "IZHMA Krinkov",                       --Krinkov
 		bm_w_akmsu_desc = "Downsized Russian submachine gun based on the IZHMA AK.762. High damage - Low ammo capacity.",

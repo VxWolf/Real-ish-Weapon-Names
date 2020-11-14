@@ -6,7 +6,7 @@
 	"contact" : "hard",
 	"color" : "0.8 0.8 1.0",
 	"image" : "icon.png",
-	"version": "v8",
+	"version": "v9",
 	"updates" : [
     	{
 			"identifier" : "21048",
