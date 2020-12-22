@@ -66,6 +66,12 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 		bm_wp_upg_o_rikt = "Riktpunkt Holosight", --Riktpunkt Holosight
 		bm_wp_upg_o_rikt_desc = "Concealable sight that slightly increases stability. Makes for quick target acquisition.",
 
+		bm_wp_upg_o_fc1 = "Riktpunkt Compact Profile", --Compact Profile Sight
+		bm_wp_upg_o_fc1_desc = "Low profile sight. Sacrifices stability.",
+
+		bm_wp_upg_o_tf90 = "Riktpunkt Tactical Red Dot", --Compact Tactical Box Sight
+		bm_wp_upg_o_tf90_desc = "Sight that slightly increases stability. Has a larger reticule and sight picture, sacrificing some concealability.",
+
 		bm_wp_pis_deagle_extra = "Toucan Rail", --Deagle Scope Mount
 		bm_wp_pis_deagle_extra_desc = "Augmentation that allows standard sights to be attached.",
 
@@ -271,6 +277,21 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 				
 		bm_wp_upg_ns_sho_salvo_large = "BeSilent! Ssh!",
 		bm_wp_upg_ns_sho_salvo_large_desc = "Suppressor that slightly increases accuracy and stability. Sacrifices damage and concealment.",
+
+		bm_wp_upg_ns_medium_gem = "DIAgeM Rotec", --Rotec Suppressor
+		bm_wp_upg_ns_medium_gem_desc = "Suppressor that slightly increases stability. Sacrifices damage and concealment.",
+
+		bm_wp_upg_ns_large_kac = "Viking HOG", --Champion's Suppressor
+		bm_wp_upg_ns_large_kac_desc = "Suppressor that slightly increases accuracy. Sacrifices damage, stability and concealment.",
+
+		bm_wp_upg_ns_pis_medium = "Viking Government Model 1", --Standard Issue Suppressor (Pistol)
+		bm_wp_upg_ns_pis_medium_desc = "Suppressor that slightly increases stability. Sacrifices damage and concealment.",
+
+		bm_wp_upg_ns_pis_small = "Viking Tactical Compact Mk.3", --Size doesn't matter Suppressor
+		bm_wp_upg_ns_pis_small_desc = "Highly concealable suppressor that eliminates firing noise. Greatly sacrifices damage.",
+
+		bm_wp_upg_ns_pis_jungle = "Bowser Jungle Ninja", --Jungle Ninja
+		bm_wp_upg_ns_pis_jungle_desc = "Camoflagued Suppressor that increases accuracy and stability. Greatly sacrifices concealment.",
 	
 	--Compensators
 		bm_wp_upg_ns_ass_smg_stubby = "Dninnu Stubby",
@@ -302,7 +323,16 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 				
 		bm_wp_ns_duck = "Donald's Horizontal Leveller",
 		bm_wp_ns_duck_desc = "Compensator that increases damage and stability. Flattens vertical spread.",
-				
+
+		bm_wp_upg_ns_ipsccomp = "SG IPSC", --IPSC Compensator
+		bm_wp_upg_ns_ipsccomp_desc = "Compensator that greatly increases accuracy. Sacrifices stability.",
+
+		bm_wp_upg_ns_meatgrinder = "Goats' Frontline CQB Grinder", --Facepunch Compensator
+		bm_wp_upg_ns_meatgrinder_desc = "Compensator that increases damage and stability. Sacrifices accuracy.",
+
+		bm_wp_upg_pis_ns_flash = "SG Flash Hider", --Flash Hider
+		bm_wp_upg_pis_ns_flash_desc = "Flash Hider that increases damage and stability. Sacrifices accuracy.",
+
 		bm_wp_upg_ns_typhoon = "Dninnu Hurricane", --Hurricane Compensator
 		bm_wp_upg_ns_typhoon_desc = "Compensator that increases stability, damage, and accuracy. Sacrifices concealment.",
 				

@@ -344,7 +344,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 
 		bm_w_plainsrider_desc = "Native american bow. Fires reusable arrows.", --Plainsrider bow
 		
-		bm_w_arblast = "Medieval Arbalest.", --Heavy Crossbow
+		bm_w_arblast = "Medieval Arbalest", --Heavy Crossbow
 		bm_w_arblast_desc = "Heavy medieval arbalest. Fires reusable bolts.",
 
 		bm_w_frankish_desc = "Lightweight medieval crossbow. Fires reusable bolts.", --Light crossbow

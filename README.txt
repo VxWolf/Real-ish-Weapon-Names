@@ -90,6 +90,11 @@ if theres an aspect not here that you feel should be mentioned, add it to your d
 
 CHANGE LOG:
 
+v10
+-Removed unnecessary punctuation from the heavy crossbow/medieval arbalest
+-Added name for the Compact Profile Sight and Compact Tactical Box Sight
+-Added name for the facepunch compensator, IPSC compensator, Flash Hider, and various pistol silencers 
+
 v9
 -Added Gunslinger Weapons Pack weapons
 
