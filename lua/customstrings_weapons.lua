@@ -96,7 +96,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_saiga = "IZHMA Konsurn 12G",                           --IZHMA 12G
 		bm_w_saiga_desc = "Fully automatic magazine-fed light shotgun. Low damage - high rate of fire.",
 
-		bm_w_huntsman = "Eaton Mosconi 12G",               	  --Mosconi 12G
+		bm_w_huntsman = "Eaton Sporting 12G",               	  --Mosconi 12G
 		bm_w_huntsman_desc = "Break-action heavy shotgun made for hunting. High damage - low ammo capacity.",
 
 		bm_w_benelli = "Leone M1014",                         --M1014
@@ -133,7 +133,10 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_coach_desc = "Break-action heavy shotgun made for hunting. High damage - low ammo capacity.",
 
 		bm_w_m1897 = "Reinbeck Reinfeld 1888",
-		bm_w_m1897_desc = "Wartime trench gun that made the Germans quite unhappy. Moderate damage - High Concealment.",
+		bm_w_m1897_desc = "Wartime shotgun that excelled in trench warfare. Moderate damage - High Concealment.",
+
+		bm_w_m590 = "Mosconi Tactical Custom",			--Mosconi 12G Tactical
+		bm_w_m590_desc = "Tactical pump-action shotgun. Moderate damage - high rate of fire.",
 
 --Akimbos
 	--Pistols
@@ -207,14 +210,17 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_czech = "Akimbo CSCR 92 Sport II", --Czech 92 Pistol
 		bm_w_x_czech_desc = "Wield two CSCR 92 Sport IIs simultaneously in akimbo. Make John Woo proud.",
 
-		bm_w_x_stech = "Akimbo Igor Automatik", --Igor Automatik Pistol
-		bm_w_x_stech_desc = "Wield two Igor Automatiks simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_stech = "Akimbo TKV Igor Automatik", --Igor Automatik Pistol
+		bm_w_x_stech_desc = "Wield two TKV Igor Automatiks simultaneously in akimbo. Make John Woo proud.",
 
 		bm_w_x_holt = "Akimbo Holt I9", --Igor Automatik Pistol
 		bm_w_x_holt_desc = "Wield two Holt I9s simultaneously in akimbo. Make John Woo proud.",
 
 		bm_w_x_model3 = "Akimbo Frenchman Model 87", --Frenchman Model 87
-		bm_w_x_model3_desc = "Wield two Frenchman Model 87s simultaneously in akimbo. Make John Woo Proud.",
+		bm_w_x_model3_desc = "Wield two Frenchman Model 87s simultaneously in akimbo. Make John Woo proud.",
+
+		bm_w_x_m1911 = "Akimbo Crosskill Classic",
+		bm_w_x_m1911_desc = "Wield two Crosskill Classics simultaneously in akimbo. Make Uncle Sam proud.",
 
 	--SMGs
 
@@ -281,8 +287,11 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_mp7 = "Akimbo SG SpecOps", --Akimbo 
 		bm_w_x_mp7_desc = "Wield two SG SpecOpses simultaneously in akimbo. Make John Woo proud.",
 
-		bm_w_x_sr2 = "Akimbo Igor Heather",            	  --Akimbo Heather SMG
-		bm_w_x_sr2_desc = "Wield two Igor Heathers simultaneously in akimbo. This is fucking war baby!",
+		bm_w_x_sr2 = "Akimbo TKV Igor Heather",            	  --Akimbo Heather SMG
+		bm_w_x_sr2_desc = "Wield two TKV Igor Heathers simultaneously in akimbo. This is fucking war baby!",
+
+		bm_w_x_vityaz = "Akimbo IZHMA AK Gen.21",
+		bm_w_x_vityaz_desc = "Wield two IZHMA AK Gen.21s simultaneously in akimbo. Make John Woo proud.",
 
 	--Shotguns
 
@@ -295,7 +304,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_rota = "Akimbo Goliath UB12G",				  --Akimbo Goliaths
 		bm_w_x_rota_desc = "Wield two Goliath UB12Gs simultaneously in akimbo. Make John Woo proud.",
 
---Special
+	--Special
 
 		bm_w_gre_m79 = "GL40",      				          --GL40 GL
 		bm_w_gre_m79_desc = "Fires a grenade that explodes on impact. Perfect for powerful crowd control.",
@@ -422,7 +431,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_glock_17_desc = "Common standard issue handgun. Low damage - Low price.",
 
 		bm_w_colt_1911 = "Crosskill Operator II",			  --Crosskill
-		bm_w_colt_1911_desc = "Classic American WWI handgun. Moderate damage - Small magazines.",
+		bm_w_colt_1911_desc = "A Modernized American WWI handgun. Moderate damage - Small magazines.",
 
 		bm_w_b92fs = "Bernetti B9S",                        --Bernetti 9
 		bm_w_b92fs_desc = "Iconic Italian handgun. Low damage - High ammo capacity.",
@@ -484,7 +493,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_czech = "CSCR 92 Sport II", --Czech 92 Pistol
 		bm_w_czech_desc = "A Czech-made machine pistol. Low damage - Capable of automatic fire.",
 
-		bm_w_stech = "Igor Automatik", --Igor Automatik Pistol
+		bm_w_stech = "TKV Igor Automatik", --Igor Automatik Pistol
 		bm_w_stech_desc = "A Russian-made machine pistol for personal defence. Moderate damage - Capable of automatic fire.",
 
 		bm_w_holt = "Holt I9",
@@ -492,6 +501,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 
 		bm_w_model3 = "Frenchman Model 87", --Frenchman Model 87 Revolver
 		bm_w_model3_desc = "Special edition top-break revolver. High damage - Great accuracy.",
+
+		bm_w_m1911 = "Crosskill Classic", --Crosskill Chunky Compact
+		bm_w_m1911_desc = "Classic American WWI handgun. High damage - Moderate accuracy.",
 
 --SMGs
 
@@ -543,7 +555,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_baka = "IMI Micro Uzi",                       --Micro Uzi
 		bm_w_baka_desc = "Jiro's submachine gun of choice. Low damage - High concealment.",
 
-		bm_w_sr2 = "Igor Heather",                      --Heather SMG / idk
+		bm_w_sr2 = "TKV Igor Heather",                      --Heather SMG / idk
 		bm_w_sr2_desc = "Compact Russian submachine gun. Moderate damage - High concealment.",
 
 		bm_w_hajk = "CSCR 805B",                             --CR 805B
@@ -560,6 +572,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 
 		bm_w_shepheard = "Signature SNTHC", --Signature SMG
 		bm_w_shepheard_desc = "Highly concealable submachine gun. Low damage - High concealment.",
+
+		bm_w_vityaz = "IZHMA AK Gen.21", --AK Gen 21 Tactical
+		bm_W_vityaz_desc ="9mm SMG version of IZHMA's AK platform. Moderate damage - High ammo capacity.",
 
 		thisisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add a gun
     })

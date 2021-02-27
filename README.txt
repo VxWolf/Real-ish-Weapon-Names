@@ -90,6 +90,12 @@ if theres an aspect not here that you feel should be mentioned, add it to your d
 
 CHANGE LOG:
 
+v11
+-Eaton Mosconi 12G is now Eaton Sporting 12G
+-Added weapons from the Jiu Feng Smuggler Pack
+-Updated description for the 1888 Shotgun
+-Updated the 'igor' manufacturer as 'TKV'
+
 v10
 -Removed unnecessary punctuation from the heavy crossbow/medieval arbalest
 -Added name for the Compact Profile Sight and Compact Tactical Box Sight
