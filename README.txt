@@ -90,6 +90,16 @@ if theres an aspect not here that you feel should be mentioned, add it to your d
 
 CHANGE LOG:
 
+v12
+-Added a bunch of guns from DLCs since Jiu Feng
+-Fixed a typo in the Eagle Heavy description
+-Fixed broken description for the Akimbo Cobra SMGs
+-Updated various other descriptions to be slightly more descriptive
+-Updated the 'Wels' manufacturer as 'Stefan'
+-Updated the 'TKV' manufacturer as 'KETCHNOV'
+-Updated the 'Reich' manufacturer as 'Ubertoten'
+-White streak is now made by KETCHNOV
+
 v11
 -Eaton Mosconi 12G is now Eaton Sporting 12G
 -Added weapons from the Jiu Feng Smuggler Pack

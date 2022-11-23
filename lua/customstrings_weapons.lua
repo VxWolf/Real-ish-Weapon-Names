@@ -15,7 +15,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_m4 = "Crosskill AMCAR-4",       		      --CAR-4
 		bm_w_m4_desc = "Assault rifle of choice for the modern SWAT unit. Moderate damage - wide part variety.",
 
-		bm_w_aug = "Wels UAR",                            --UAR / AAAC
+		bm_w_aug = "Stefan UAR",                            --UAR / from proghorn
 		bm_w_aug_desc = "Austrian bullpup assault rifle. Moderate damage - balanced performance.",
 
 		bm_w_akm = "IZHMA AK.762",                        --AK.762
@@ -27,6 +27,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_m14 = "Moonbase Armory M308",                --M308
 		bm_w_m14_desc = "Powerful and precise DMR. Very high damage - very low ammo capacity.",
 
+		bm_w_groza = "KETCHNOV BYk-1",                --KETCHNOV Byk-1
+		bm_w_groza_desc = "Rare Russian Battle Rifle. High damage - Has an underbarrel grenade launcher.",
+
 		bm_w_ak5 = "UN AK5",                              --Ak 5
 		bm_w_ak5_desc = "Belgian assault rifle. Moderate damage - balanced performance.",
 
@@ -37,7 +40,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_s552_desc = "This assault rifle is 'Restricted for law enforcement use only'. Low damage - Good concealment.",
 
 		bm_w_scar = "UN Eagle Heavy",                      --Eagle Heavy Rifle
-		bm_w_scar_desc = "Battle rifle of choice for the Murkywater PMC. High damage - low ammo ammo capacity.",
+		bm_w_scar_desc = "Battle rifle of choice for the Murkywater PMC. High damage - low ammo capacity.",
 
 		bm_w_fal = "UN Falcon",                           --Falcon
 		bm_w_fal_desc = "A well rounded assault rifle. High damage - balanced performance.",
@@ -81,6 +84,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 
 		bm_w_komodo = "IMI Tempest-21",							  --Tempest-21 Rifle
 		bm_w_komodo_desc = "Israeli bullpup assault rifle. Moderate damage - Fast reloads.",
+
+		bm_w_shak12 = "KETCHNOV KS12 Urban",	--KS12 Urban Rifle
+		bm_w_shak12_desc = "Russian battle rifle for Close Quarters Combat. High damage - Low accuracy.",
 
 --Shotguns
  
@@ -138,14 +144,20 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_m590 = "Mosconi Tactical Custom",			--Mosconi 12G Tactical
 		bm_w_m590_desc = "Tactical pump-action shotgun. Moderate damage - high rate of fire.",
 
+		bm_w_sko12 = "Crosskill VD-12",			--VD-12 Shotgun
+		bm_w_sko12_desc = "Magazine-fed shotgun based on Crosskill's AM platform. Moderate damage - Large magazines.",
+
+		bm_w_ultima = "IZHMA Argos III",			--Argos III
+		bm_w_ultima_desc = "'Wi-fi capable' shotgun with futuristic molded furnature. Moderate-high damage - High rate of fire.",
+
 --Akimbos
 	--Pistols
 
 		bm_w_x_rage = "Akimbo Crosskill Bronco .44", --Akimbo Bronco .44
 		bm_w_x_rage_desc = "Wield two Crosskill Bronco .44s simultaneously in akimbo. Make John Woo proud.",
 
-		bm_w_x_pl14 = "Akimbo IZHMA White Streak", --Akimbo White Streak
-		bm_w_x_pl14_desc = "Wield two IZHMA White Streaks simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_pl14 = "Akimbo KETCHNOV White Streak", --Akimbo White Streak
+		bm_w_x_pl14_desc = "Wield two KETCHNOV White Streaks simultaneously in akimbo. Make John Woo proud.",
 
 		bm_w_x_sparrow = "Akimbo Foreign Arnaments Sparrow 941", --Akimbo Baby Deagle 
 		bm_w_x_sparrow_desc = "Wield two Foreign Arnaments Sparrow 941s simultaneously in akimbo. I don't quite remember this from Cowboy Bebop.",
@@ -153,8 +165,8 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_c96 = "Akimbo Ubertoten Broomstick", --Akimbo Broomstick
 		bm_w_x_c96_desc = "Wield two Ubertoten Broomsticks simultaneously in akimbo. Make John Woo proud.",
 
-		bm_w_x_breech = "Akimbo Max Parabellum", --Akimbo Parabellum
-		bm_w_x_breech_desc = "Wield two Max Parabellums simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_breech = "Akimbo Ubertoten Parabellum", --Akimbo Parabellum
+		bm_w_x_breech_desc = "Wield two Ubertoten Parabellums simultaneously in akimbo. Make John Woo proud.",
 
 		bm_w_x_chinchilla = "Akimbo Crosskill Castigo .44",	  --Akimbo Castigo .44 Revolvers 
 		bm_w_x_chinchilla_desc = "Wield two Crosskill Castigo .44s simultaneously in akimbo. Sangres very angry.",
@@ -210,10 +222,10 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_czech = "Akimbo CSCR 92 Sport II", --Czech 92 Pistol
 		bm_w_x_czech_desc = "Wield two CSCR 92 Sport IIs simultaneously in akimbo. Make John Woo proud.",
 
-		bm_w_x_stech = "Akimbo TKV Igor Automatik", --Igor Automatik Pistol
-		bm_w_x_stech_desc = "Wield two TKV Igor Automatiks simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_stech = "Akimbo KETCHNOV Igor Automatik", --Igor Automatik Pistol
+		bm_w_x_stech_desc = "Wield two KETCHNOV Igor Automatiks simultaneously in akimbo. Make John Woo proud.",
 
-		bm_w_x_holt = "Akimbo Holt I9", --Igor Automatik Pistol
+		bm_w_x_holt = "Akimbo Holt I9", --Holt I9
 		bm_w_x_holt_desc = "Wield two Holt I9s simultaneously in akimbo. Make John Woo proud.",
 
 		bm_w_x_model3 = "Akimbo Frenchman Model 87", --Frenchman Model 87
@@ -221,6 +233,15 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 
 		bm_w_x_m1911 = "Akimbo Crosskill Classic",
 		bm_w_x_m1911_desc = "Wield two Crosskill Classics simultaneously in akimbo. Make Uncle Sam proud.",
+
+		bm_w_x_type54 = "Akimbo KA Model 54", --Akimbo Kang Arms Model 54
+		bm_w_x_type54_desc = "Wield two KA Model 54s simultaneously in akimbo. Make John Woo proud.",
+
+		bm_w_x_maxim9 = "Akimbo Gecko M2", --Akimbo Gecko M2
+		bm_w_x_maxim9_desc = "Wield two Gecko M2s simultaneously in akimbo. Quietly make John Woo proud.",
+
+		bm_w_x_korth = "Akimbo Kahn Jayrock Custom", --Akimbo Gecko M2
+		bm_w_x_korth_desc = "Wield two Kahn Jayrock Customs simultaneously in akimbo. Make John Woo proud.",
 
 	--SMGs
 
@@ -237,7 +258,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_m1928_desc = "Wield two Chicago Typewriters simultaneously in akimbo. Make John Woo proud.",
 
 		bm_w_x_scorpion = "Akimbo CSCR Cobra", --Akimbo Cobras 
-		bm_w_x_scoption_desc = "Wield two CSCR Cobras simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_scorpion_desc = "Wield two CSCR Cobras simultaneously in akimbo. Make John Woo proud.",
 
 		bm_w_x_baka = "Akimbo IMI Micro Uzi", --Akimbo Micro Uzis 
 		bm_w_x_baka_desc = "Wield two IMI Micro Uzis simultaneously in akimbo. Make John Woo proud.",
@@ -254,8 +275,8 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_shepheard = "Akimbo Signature SNTHC", --Akimbo Signature SMGs
 		bm_w_x_shepheard_desc = "Wield two Signature SNTHCs simultaneously in akimbo. How many Nintendo consoles do you own?",
 
-		bm_w_x_erma = "Akimbo Reich MP40", --Akimbo MP40s
-		bm_w_x_erma_desc = "Wield two Reich MP40s simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_erma = "Akimbo Ubertoten MP40", --Akimbo MP40s
+		bm_w_x_erma_desc = "Wield two Ubertoten MP40s simultaneously in akimbo. Make John Woo proud.",
 
 		bm_w_x_tec9 = "Akimbo Blastatec DylK9", --Akimbo Blaster 9mm 
 		bm_w_x_tec9_desc = "Wield two Blastatec DylK9s simultaneously in akimbo. It's gonna be like playing Doom.",
@@ -287,11 +308,14 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_mp7 = "Akimbo SG SpecOps", --Akimbo 
 		bm_w_x_mp7_desc = "Wield two SG SpecOpses simultaneously in akimbo. Make John Woo proud.",
 
-		bm_w_x_sr2 = "Akimbo TKV Igor Heather",            	  --Akimbo Heather SMG
-		bm_w_x_sr2_desc = "Wield two TKV Igor Heathers simultaneously in akimbo. This is fucking war baby!",
+		bm_w_x_sr2 = "Akimbo KETCHNOV Heather",            	  --Akimbo Heather SMG
+		bm_w_x_sr2_desc = "Wield two KETCHNOV Heathers simultaneously in akimbo. This is fucking war baby!",
 
-		bm_w_x_vityaz = "Akimbo IZHMA AK Gen.21",
-		bm_w_x_vityaz_desc = "Wield two IZHMA AK Gen.21s simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_vityaz = "Akimbo IZHMA AK Gen.21",			--IZHMA AK Gen 21
+		bm_w_x_vityaz_desc = "Wield two IZHMA AK Gen.21s simultaneously in akimbo. For the luckiest of Scavs (10-round mags not included).",
+
+		bm_w_x_pm9 = "Akimbo Miyaka M10 Special",			--Miyaka 10 Special
+		bm_w_x_pm9_desc = "Wield two Miyaka M10 Specials simultaneously in akimbo. Make John Woo proud.",
 
 	--Shotguns
 
@@ -304,21 +328,25 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_rota = "Akimbo Goliath UB12G",				  --Akimbo Goliaths
 		bm_w_x_rota_desc = "Wield two Goliath UB12Gs simultaneously in akimbo. Make John Woo proud.",
 
+		bm_w_x_sko12 = "Akimbo Crosskill VD-12",				  --Akimbo VD-12s
+		bm_w_x_sko12_desc = "Wield two Crosskill VD-12s simultaneously in akimbo. Make John Woo proud.",
+
 	--Special
 
 		bm_w_gre_m79 = "GL40",      				          --GL40 GL
 		bm_w_gre_m79_desc = "Fires a grenade that explodes on impact. Perfect for powerful crowd control.",
 
 		bm_w_saw = "OVE9000",                             --SAW
-		bm_w_saw_desc = "Ammo pickups are disabled for this weapon.",
+		bm_w_saw_desc = "Electric power tool. Cuts open various items around the world - ammo pickups are disabled for this weapon.",
 
 		bm_w_m134 = "Overkill Tatsuto Peasemaker Vulcan",   --Vulcan Minigun / I faintly saw "tatsuto peasemaker[sic] on the side of the minigun",
-		bm_w_m134_desc = "Chainsaw grip portable minigun. Blistering rate of fire.",
+		bm_w_m134_desc = "Chainsaw grip portable minigun. Blistering rate of fire - painfully sluggish reloads.",
 
 		bm_w_m32 = "Public Defender Piglet",       		  --Piglet GL
-		bm_w_m32_desc = "Fires grenades that explode on impact. High magazine capacity, but painfully sluggish reload.",
+		bm_w_m32_desc = "Fires grenades that explode on impact. High magazine capacity - painfully sluggish reloads.",
 
 		bm_w_rpg7 = "Pumize HRL-7",                        --HRL-7
+		bm_w_rpg7_desc = "Shoulder-fired rocket launcher. Insane damage - ammo pickups are disabled for this weapon.",
 
 		bm_w_china = "Moonbase Armory China Puff",		  --China Puff 40mm Grenade Launcher
 		bm_w_china_desc = "Fires grenades that explode on impact. Sluggish reloads.",
@@ -327,6 +355,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_arbiter_desc = "Fires grenades that explode on impact. Long range.",
 
 		bm_w_ray = "Commando 101",		                  --Commando 101 Rocket Launcher
+		bm_w_ray_desc = "Shoulder-fired rocket launcher. Large magazines - ammo pickups are disabled for this weapon.",
 
 		bm_w_flamethrower_mk2 = "PAYDAY Crew Flamethrower Mk.1",		  --Flamethrower
 		bm_w_flamethrower_mk2_desc = "Custom flamethrower. Sets enemies on fire.",
@@ -335,7 +364,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_slap_desc = "Fires a grenade that explodes on impact. Perfect for powerful crowd control.",
 
 		bm_w_shuno = "Overkill XL 5.56",  		  --XL 5.56 Microgun
-		bm_w_shuno_desc = "Shoulder-resting portable microgun. Blistering rate of fire.",
+		bm_w_shuno_desc = "Shoulder-resting portable microgun. Blistering rate of fire - painfully sluggish reloads.",
 
 		bm_w_system = "Modestly Awesome MA-17",  			          --MA-17 Flamethrower
 		bm_w_system_desc = "Promotional flamethrower. Sets enemies on fire.",
@@ -357,6 +386,12 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_arblast_desc = "Heavy medieval arbalest. Fires reusable bolts.",
 
 		bm_w_frankish_desc = "Lightweight medieval crossbow. Fires reusable bolts.", --Light crossbow
+
+		bm_w_hailstorm = "Basilisk Hailstorm Mk5", --Hailstorm Mk 5
+		bm_w_hailstorm_desc = "Australian prototype weapon that electronically fires rounds. Blistering rate of fire - Volley fire penetrates shields and armor.",
+
+		bm_w_ms3gl = "Basilisk 3VGL", --Basilisk 3V
+		bm_w_ms3gl_desc = "Fires grenades that explode on impact. Has burst fire ability.",
 
 --Snipers
 
@@ -396,6 +431,12 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_sbl = "Bernetti Rangehitter", --Bernetti Rangehitter
 		bm_w_sbl_desc = "Luxury lever-action rifle. Moderate damage - Large magazines.",
 
+		bm_w_qbu88 = "KA X1", --Kang Arms X1
+        bm_w_qbu88_desc = "Chinese bullpup sniper rifle. Low damage - High rate of fire.",
+
+		bm_w_scout = "Stefan Pronghorn", --Kang Arms X1
+        bm_w_scout_desc = "Compact secondary sniper rifle. Moderate damage - Low accuracy.",
+
 --LMGs
 
 		bm_w_rpk = "IZHMA RPK",               		      --RPK
@@ -415,6 +456,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 
 		bm_w_m60 = "Crosskill M60", --M60 LMG
 		bm_w_m60_desc = "Iconic wartime LMG. High damage - Low rate of fire.",
+
+		bm_w_hk51b = "SG Versteckt-51D", --SG Versteckt 51D
+		bm_w_hk51b_desc = "Custom fabricated special-forces LMG. High damage - Can attach sights.",
 
 --Pistols
 
@@ -466,23 +510,32 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_sparrow = "Foreign Arnaments Sparrow 941",       --Baby Deagle
 		bm_w_sparrow_desc = "Handgun inspired by the Deagle .50c. High damage - Low fire of rate.",
 
-		bm_w_pl14 = "IZHMA White Streak",              	  --White Streak Pistol / irl made by kalashnikov concern
+		bm_w_pl14 = "KETCHNOV White Streak",              	  --White Streak Pistol / irl made by kalashnikov concern
 		bm_w_pl14_desc = "Russian prototype handgun. High damage - Low rate of fire.",
 
 		bm_w_packrat = "SG Master",        			          --Contractor Pistol
 		bm_w_packrat_desc = "John Wick's handgun of choice. Moderate damage - Cool looking reload bruv yeah!",
 
 		bm_w_lemming = "Acuto 5/7 AP",	    	              --5/7 AP Pistol / Acuto written on gun, even though irl would be made by UN/FN
-		bm_w_lemming_desc = "Specialised handgun designed to backup a PDW. High damage - Penetrates body armour.",
+		bm_w_lemming_desc = "Specialised handgun designed to backup a PDW. High damage - Penetrates shields and armor.",
+
+		bm_w_maxim9 = "Gecko M2",	    	              --Gecko M2
+		bm_w_maxim9_desc = "Modern tactical handgun. Moderate-High damage - Integrally suppressed.",
 
 		bm_w_chinchilla = "J&M Castigo .44",    		  --Castigo .44 Revolver / name from otwd
 		bm_w_chinchilla_desc = "Revolver chambered in .44. Very high damage - Great accuracy.",
 
-		bm_w_breech = "Max Parabellum",                      --Parabellum Pistol / idk
+		bm_w_korth = "Kahn Jayrock Custom",    		  --Kahn .357 / name on body
+		bm_w_korth_desc = "Custom-modified revolver. High damage - large magazines.",
+
+		bm_w_breech = "Ubertoten Parabellum",                      --Parabellum Pistol
 		bm_w_breech_desc = "Advanced WWII handgun. Very high damage - Great accuracy.",
 
 		bm_w_shrew = "Crosskill Guard",  	      			  --Crosskill Guard
 		bm_w_shrew_desc = "A compact handgun similar to the Operator II. Low damage - High concealment.",
+
+		bm_w_type54 = "KA Model 54",                      --Kang Arms Model 54
+		bm_w_type54_desc = "Chinese handgun based on Russian design. Moderate damage - Can attach an underbarrel shotgun.",
 
 		bm_w_legacy = "SG M13",  	      			  --M13 9mm Pistol
 		bm_w_legacy_desc = "A highly concealable lightweight handgun. Low damage - High concealment.",
@@ -493,7 +546,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_czech = "CSCR 92 Sport II", --Czech 92 Pistol
 		bm_w_czech_desc = "A Czech-made machine pistol. Low damage - Capable of automatic fire.",
 
-		bm_w_stech = "TKV Igor Automatik", --Igor Automatik Pistol
+		bm_w_stech = "KETCHNOV Igor Automatik", --Igor Automatik Pistol
 		bm_w_stech_desc = "A Russian-made machine pistol for personal defence. Moderate damage - Capable of automatic fire.",
 
 		bm_w_holt = "Holt I9",
@@ -501,6 +554,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 
 		bm_w_model3 = "Frenchman Model 87", --Frenchman Model 87 Revolver
 		bm_w_model3_desc = "Special edition top-break revolver. High damage - Great accuracy.",
+
+		bm_w_rsh12 = "KETCHNOV RUS-12", --RUS-12 Angry Tiger
+		bm_w_rsh12_desc = "Extremely rare prototype revolver. Very high damage - Penetrates shields and armor.",
 
 		bm_w_m1911 = "Crosskill Classic", --Crosskill Chunky Compact
 		bm_w_m1911_desc = "Classic American WWI handgun. High damage - Moderate accuracy.",
@@ -555,7 +611,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_baka = "IMI Micro Uzi",                       --Micro Uzi
 		bm_w_baka_desc = "Jiro's submachine gun of choice. Low damage - High concealment.",
 
-		bm_w_sr2 = "TKV Igor Heather",                      --Heather SMG / idk
+		bm_w_sr2 = "KETCHNOV Heather",                      --Heather SMG / idk
 		bm_w_sr2_desc = "Compact Russian submachine gun. Moderate damage - High concealment.",
 
 		bm_w_hajk = "CSCR 805B",                             --CR 805B
@@ -567,14 +623,20 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_coal = "IZHMA Tatonka",		                  --Tatonka SMG
 		bm_w_coal_desc = "Russian submachine gun with unique cylindrical magazine. High damage - High magazine size.",
 
-		bm_w_erma = "Reich MP40",                                --MP40 Submachinegun
+		bm_w_erma = "Ubertoten MP40",                                --MP40 Submachinegun
 		bm_w_erma_desc = "Classic WWII machine pistol. High damage - Low ammo capacity.",
 
 		bm_w_shepheard = "Signature SNTHC", --Signature SMG
 		bm_w_shepheard_desc = "Highly concealable submachine gun. Low damage - High concealment.",
 
 		bm_w_vityaz = "IZHMA AK Gen.21", --AK Gen 21 Tactical
-		bm_W_vityaz_desc ="9mm SMG version of IZHMA's AK platform. Moderate damage - High ammo capacity.",
+		bm_w_vityaz_desc ="9mm SMG version of IZHMA's AK platform. Moderate damage - High ammo capacity.",
+
+		bm_w_fmg9 = "Wasp-DS", --Wasp-DS
+		bm_w_fmg9_desc ="Folding SMG. Low damage - High rate of fire.",
+
+		bm_w_pm9 = "Miyaka M10 Special", --Miyaka 10 Special
+		bm_w_pm9_desc ="Japanese SMG based on an Isreali design. Moderate damage - High of fire.",
 
 		thisisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add a gun
     })

@@ -105,9 +105,6 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Alcat_AddonGuns", function(loc)
 		bm_w_js2 = "Chicom JianShe", --PLA - JS2 smg
         bm_w_js2_desc = "Bullpup SMG for Special Force use. Moderate damage - High concealment.",
 
-		bm_w_qbu88 = "Chicom QSn-88", --PLA - QBU88 DMR, Sn for Sniper
-        bm_w_qbu88_desc = "Design derived from the QBZ-95 for precision shooting. Low damage - High rate of fire.",
-
 		bm_w_glau = "Radon Glau-98", --PM-98 Glauberyt
         bm_w_glau_desc = "Small form-factor SMG designed for CQC situation. High damage - Has 4-round burst function.",
 
