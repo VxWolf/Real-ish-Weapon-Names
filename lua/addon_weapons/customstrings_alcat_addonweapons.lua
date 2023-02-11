@@ -136,9 +136,6 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Alcat_AddonGuns", function(loc)
 		bm_w_sumitomo = "Sumitomoe T-62", --Sumitomo MG
         bm_w_sumitomo_desc = "General purpose machine gun of the JSDF. Resemble KSP58 but very different internally. High damage - Ammo belt magazine available.",
 
-		bm_w_contender = "Thomson Contender", --Contender Break-Action pistol
-        bm_w_contender_desc = "Break-Action pistol designed for hunting game. Main selling point is the ease of changing barrel and caliber.",
-
 		bm_w_trench = "G&H Trench Gun", --Trench shotgun || Winchester manuf, since Winchester sniper is named Gage G&H, and its an old gun, I used G&H
 		--Short descrip become to long so no <DAMAGE TIER> - <INTERESTING ASPECT> for now		
         bm_w_trench_desc = "The infamous shotgun that are so effective on trench warfare, it become a political target of the enemy.",

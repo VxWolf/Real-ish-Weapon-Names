@@ -54,9 +54,6 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Pawcio_AddonGuns", function(loc
 			
 		bm_w_cs5 = "McMilano 'Stubby'",
 		bm_w_cs5_desc = "'Compact' sniper rifle. Moderate damage - High concealment.",
-			
-		bm_w_hcar = "Heavy Browing Assault Rifle", --if Browning name on my script are changed, this will follow
-		bm_w_hcar_desc = "Modernized BAR with lighter frame but still packs the same punch. High damage - Low ammo capacity.",
 
 		bm_w_sg510 = "Signature Commando Prototype",
 		bm_w_sg510_desc = "The progenitor of swiss high-quality Sig assault rifle. High damage - Poor stability.",				

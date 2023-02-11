@@ -6,7 +6,7 @@
 	"contact" : "hard",
 	"color" : "0.8 0.8 1.0",
 	"image" : "icon.png",
-	"version": "v12",
+	"version": "v13",
 	"updates" : [
     	{
 			"identifier" : "21048",
@@ -20,6 +20,46 @@
 			"hook_id": "lib/managers/localizationmanager",
 			"script_path": "lua/customstrings_addonweapons.lua"
 		},		
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/vanilla_weapons/assault_rifle.lua"
+		},
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/vanilla_weapons/lmg.lua"
+		},
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/vanilla_weapons/pistol.lua"
+		},
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/vanilla_weapons/shotgun.lua"
+		},
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/vanilla_weapons/smg.lua"
+		},
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/vanilla_weapons/sniper.lua"
+		},
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/vanilla_weapons/special.lua"
+		},
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/vanilla_weaponmods/shared_gadget.lua"
+		},
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/vanilla_weaponmods/shared_sight.lua"
+		},
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/customstrings_weaponmods.lua"
+		},
 		{
 			"hook_id": "lib/managers/localizationmanager",
 			"script_path": "lua/addon_weapons/customstrings_alcat_addonweapons.lua"
@@ -47,14 +87,6 @@
 		{
 			"hook_id": "lib/managers/localizationmanager",
 			"script_path": "lua/addon_weapons/customstrings_silentenforcer_addonweapons.lua"
-		},		
-		{
-			"hook_id": "lib/managers/localizationmanager",
-			"script_path": "lua/customstrings_weapons.lua"
-		},
-		{
-			"hook_id": "lib/managers/localizationmanager",
-			"script_path": "lua/customstrings_weaponmods.lua"
 		},
 		{
 			"hook_id": "lib/tweak_data/weapontweakdata",

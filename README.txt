@@ -90,6 +90,17 @@ if theres an aspect not here that you feel should be mentioned, add it to your d
 
 CHANGE LOG:
 
+v13
+-Refactored large swathes of the code to be nicer to work on
+-Moonbase Armory is now Simmons
+-Queen's Wrath is now manufactured by SG
+-FW is now Fuxter
+-Claire is now made by Reinbeck
+-Removed SP-14 from Predator
+-Added weapons from the McShay Weapon Pack 3
+-Added various attachments from previous dlcs
+-Updated naming schema for sights and sight descriptions
+
 v12
 -Added a bunch of guns from DLCs since Jiu Feng
 -Fixed a typo in the Eagle Heavy description
