@@ -27,7 +27,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_SilentEnforcer_AddonGuns", func
 		bm_w_f500_desc = "Ukrainian police / security weapon. Gift from Vlad. Moderate damage - Low ammo capacity.",
 		
 		--Gewehr 43
-		bm_w_g43 = "Reich Gewehr-43",  
+		bm_w_g43 = "Ubertoten Gewehr-43",  
 		bm_w_g43_desc = "German semi-auto rifle designed in WW2, sometimes used as precision weapon. Low damage - High rate of fire.",
 		
 		--Kolibri
@@ -79,7 +79,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_SilentEnforcer_AddonGuns", func
 		bm_w_x_spectre_m4_desc = "Wield two GE Phantoms simultaneously in akimbo. You only live twice.",
 		
 		--StG 44
-		bm_w_stg44 = "Reich Schnellgewehr-44", 
+		bm_w_stg44 = "Ubertoten Schnellgewehr-44", 
 		bm_w_stg44_desc = "The progenitor of \"Assault Rifle\" class of firearm. High damage - Slow rate of fire.",
 		
 		--TF2 Minigun
