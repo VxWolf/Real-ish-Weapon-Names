@@ -94,6 +94,7 @@ v14
 -Added names for the rest of the guns
 -Benelli (Leone) is now Moretti, named shotguns
 -Probably other stuff but I don't remember
+-Added guns from Silent Enforcer
 
 v13
 -Refactored large swathes of the code to be nicer to work on
