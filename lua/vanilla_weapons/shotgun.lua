@@ -23,7 +23,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWAN_Shotgun", function(loc)
 		bm_w_sko12_desc = "Magazine-fed shotgun based on Crosskill's AM platform. Moderate damage - Large magazines.",
 
 		--M1014
-		bm_w_benelli = "Leone M1014",
+		bm_w_benelli = "Moretti M1014",
 		bm_w_benelli_desc = "Modern light shotgun. Low damage - high rate of fire.",
 
 		--Raven
@@ -50,6 +50,10 @@ Hooks:Add("LocalizationManagerPostInit", "RishWAN_Shotgun", function(loc)
 		bm_w_aa12 = "Crosskill Steakout 12G",
 		bm_w_aa12_desc = "Fully automatic magazine-fed light shotgun. Low damage - high ammo capacity.",
 
+		--Deimos
+		bm_w_supernova = "Moretti Deimos",
+		bm_w_supernova_desc = "Heavy shotgun designed for cash-strapped counter-terrorist units. High damage - Penetrates body armor, enemies, shields and walls.",
+
 	--Secondary
 		--Locomotive 12G
 		bm_w_serbu = "Reinbeck Locomotive 12G",
@@ -73,7 +77,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWAN_Shotgun", function(loc)
 
 		--Argos III
 		bm_w_ultima = "IZHMA Argos III",
-		bm_w_ultima_desc = "'Wi-fi capable' shotgun with futuristic molded furnature. Moderate-high damage - High rate of fire.",
+		bm_w_ultima_desc = "Smart shotgun with futuristic molded furnature. Moderate-high damage - High rate of fire.",
 
 		--The Judge
 		bm_w_judge = "Public Defender 'The Judge'",

@@ -54,6 +54,10 @@ Hooks:Add("LocalizationManagerPostInit", "RishWAN_Sniper", function(loc)
 		bm_w_m95 = "Thanatos Model 95 .50",
 		bm_w_m95_desc = "Powerful .50 caliber anti-material rifle. Extreme damage - Very low ammo capacity.",
 
+		--Amaroq
+		bm_w_awp = "AIM Amaroq 900",
+		bm_w_awp_desc = "Tactical police sniper rifle. Extreme damage - low ammo capacity.",
+
 	--Secondary
 		--Pronghorn
 		bm_w_scout = "Stefan Pronghorn",

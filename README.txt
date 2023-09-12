@@ -90,6 +90,11 @@ if theres an aspect not here that you feel should be mentioned, add it to your d
 
 CHANGE LOG:
 
+v14
+-Added names for the rest of the guns
+-Benelli (Leone) is now Moretti, named shotguns
+-Probably other stuff but I don't remember
+
 v13
 -Refactored large swathes of the code to be nicer to work on
 -Moonbase Armory is now Simmons

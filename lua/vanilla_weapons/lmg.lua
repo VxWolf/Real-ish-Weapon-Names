@@ -23,7 +23,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWAN_LMG", function(loc)
 		bm_w_m249_desc = "Popular Belgian LMG. Moderate damage - Large magazines.",
 
 		--Akron HC
-		bm_w_hcar = "Akron HC",
+		bm_w_hcar = "Akron HCAR",
 		bm_w_akm_hcar = "Modernized wartime LMG. High damage - Small magazines.",
 
 		--Buzzsaw 42
@@ -33,6 +33,10 @@ Hooks:Add("LocalizationManagerPostInit", "RishWAN_LMG", function(loc)
 		--Brenner 21
 		bm_w_hk21 = "SG Brenner-21",
 		bm_w_hk21_desc = "German LMG. High damage - Large magazines.",
+
+		--Campbell 74
+		bm_w_kacchainsaw = "KA Campbell-74",
+		bm_w_kacchainsaw_desc = "The perfect LMG for mowing down SWAT. Low damage - Blistering rate of fire.",
 
 		rishwandummy = "you shouldn't see this"
 })

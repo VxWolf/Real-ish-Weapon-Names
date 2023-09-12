@@ -72,7 +72,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWAN_Pistol", function(loc)
 
 		--5/7 AP Pistol / Acuto written on gun, even though irl would be made by UN/FN
 		bm_w_lemming = "Acuto 5/7 AP",
-		bm_w_lemming_desc = "Specialised handgun designed to backup a PDW. High damage - Penetrates shields and armor.",
+		bm_w_lemming_desc = "Specialised handgun designed to backup a PDW. High damage - Penetrates body armor, enemies, shields and walls.",
 
 		--Castigo .44 Revolver / name from otwd
 		bm_w_chinchilla = "J&M Castigo .44",
@@ -88,7 +88,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWAN_Pistol", function(loc)
 
 		--RUS-12 Angry Tiger
 		bm_w_rsh12 = "KETCHNOV RUS-12",
-		bm_w_rsh12_desc = "Extremely rare prototype revolver. Very high damage - Penetrates shields and armor.",
+		bm_w_rsh12_desc = "Extremely rare prototype revolver. Very high damage - Penetrates body armor, enemies, shields and walls.",
 
 		--Chimano Compact
 		bm_wp_pis_g26 = "Chimano Compact",

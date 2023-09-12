@@ -52,7 +52,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWAN_Special", function(loc)
 
 		--Hailstorm Mk 5
 		bm_w_hailstorm = "Hailstorm R-033 Mk5",
-		bm_w_hailstorm_desc = "Australian prototype weapon that electronically fires rounds. Blistering rate of fire - Volley fire penetrates shields and armor.",
+		bm_w_hailstorm_desc = "Australian prototype weapon that electronically fires rounds. Blistering rate of fire - Volley fire penetrates body armor, enemies, shields and walls.",
 
 	--Secondary
 		--Pistol Crossbow
